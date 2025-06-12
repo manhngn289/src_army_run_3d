@@ -1,0 +1,2808 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab674bbdf86bdf6191915bde8588e37, type: 3}
+  m_Name: Level3_LevelDataTemplate
+  m_EditorClassIdentifier:
+  chapterID: 6
+  runCoin: 0
+  hasVip: 0
+  moduleControllerRecords:
+  - moduleName: ' 01 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 02 | M: DayDesert_00A | S0 | G0'
+    moduleID: 00A
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 03 | M: DayDesert_00B | S0 | G1'
+    moduleID: 00B
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 1
+    gateRecordData:
+      useManualSetting: 1
+      gateValue:
+      - {x: 2, y: 3}
+      - {x: 4, y: 5}
+      isDeactiveSecondGate: 0
+      gateTypeValues:
+      - item1: 0
+        item2: 0
+      - item1: 0
+        item2: 0
+      localPosition: {x: 0, y: 0, z: 1.3099995}
+      localRotation: {x: -0, y: -0, z: -0, w: 1}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 04 | M: DayDesert_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 43406a80bc3a11642834249f51567dae, type: 2}
+  - moduleName: ' 05 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 5c462269f83f5194b81274c0b433abeb, type: 2}
+    - {fileID: 11400000, guid: 0efd324e9c51b3f4a95540263c610c63, type: 2}
+    - {fileID: 11400000, guid: b7d5e5b010903604999b76f717106021, type: 2}
+    - {fileID: 11400000, guid: 233dde14c3d16ab4c9f4b6327fa86d50, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 06 | M: DayDesert_8 | S10 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: 0}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: 0.44}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: 0.46}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: 0.95}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: 0.95}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: 1.24}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: 1.6799979}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: 1.6999979}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: 2.189998}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: 2.189998}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 07 | M: DayDesert_9 | S11 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: -0.07}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: -0.069999695}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: -0.5600014}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: -0.58000183}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: -1.0200005}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: -1.3099976}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: -1.3099976}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: -1.7999992}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: -1.8199997}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: -2.2599978}
+    - spawnDatas:
+      - time: 0
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      spawnRadius: 1.5
+      checkDistanceRadius: 47
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: 3.3500023}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 08 | M: DayDesert_1 | S14 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: 0.110004425}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: 0.55000305}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: 0.5700035}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: 1.0600052}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: 1.0600052}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.01, y: 0, z: 1.3500023}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.64, y: 0, z: 1.7900009}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.7, y: 0, z: 1.8100014}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.16, y: 0, z: 2.300003}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: 2.3}
+    - spawnDatas:
+      - time: 0.5
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.8
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: -3.58}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.596, y: 0, z: -4.112}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.012, y: 0, z: -4.798}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.67, y: 0, z: -4.16}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: aeb9c4c33693b44409f988fe22770bec, type: 2}
+    - {fileID: 11400000, guid: 96d044641c35c924c9b68be8dac0aeab, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 09 | M: DayDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 88e2fcf0be68daf4e9d834fc9213b4a1, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: a7c9152a1686b214183e021574840413, type: 2}
+  - moduleName: ' 10 | M: DayDesert_1 | S1 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      spawnRadius: 2
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: -2.928}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 11 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 97af1b29a0549944b90d82e6535934fd, type: 2}
+    - {fileID: 11400000, guid: 11912b4d36538f541ab82ea8d01cd0a0, type: 2}
+    - {fileID: 11400000, guid: fe6dad47c2e3b4e4fb6e9beec417610c, type: 2}
+    - {fileID: 11400000, guid: 007b420b407730a4ebc5cc4ee7c85a69, type: 2}
+  - moduleName: ' 12 | M: DayDesert_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 13 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 14680240a338da8439646ee2b62f3e80, type: 2}
+    - {fileID: 11400000, guid: 136c880ebfef3f64d8196ff606646f56, type: 2}
+    - {fileID: 11400000, guid: e14b29cbbb5787b4f873327ad7c5420f, type: 2}
+    - {fileID: 11400000, guid: 22de9100e5cc1c44fb8bd962ec35ad92, type: 2}
+    - {fileID: 11400000, guid: a6036042698be444d8d986638c85b71b, type: 2}
+    - {fileID: 11400000, guid: efdec13dd90a53d43ad426668f225606, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 14 | M: DayDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 3b4db974417eb9f4cad06895d7b6a29d, type: 2}
+      - {fileID: 11400000, guid: 391305ddfcc392040b5969e24b4979cc, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 799d59b278853334c85f2d2b54fd25bf, type: 2}
+    - {fileID: 11400000, guid: cf36a0b18e8180a499bd3ee7cbc8dac0, type: 2}
+    - {fileID: 11400000, guid: 98a169cfe1cc9c343aa584d061829109, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f700c4417451ab344897cdc60ffb96b6, type: 2}
+  - moduleName: ' 15 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: d2a78594a33ca6b448fc7efceb87ff24, type: 2}
+  - moduleName: ' 16 | M: DayDesert_6 | S16 | G0'
+    moduleID: 6
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 4
+        isElite: 0
+      - time: 1.5
+        enemyID: 1
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.27, y: 0, z: 0}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.02, y: 0, z: 7.0899963}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.8, y: 0, z: 7.5899963}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: 8.09}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.8, y: 0, z: 7.5899963}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: 8.089996}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.02, y: 0, z: 12.24}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.8, y: 0, z: 12.7400055}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: 13.240009}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.8, y: 0, z: 12.7400055}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: 13.2400055}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.02, y: 0, z: 16.91}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.8, y: 0, z: 17.410004}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: 17.910007}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.8, y: 0, z: 17.410004}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.05
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 50
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: 17.910004}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 17 | M: DayDesert_7 | S1 | G0'
+    moduleID: 7
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 6
+        quantity: 2
+        isElite: 0
+      - time: 1.5
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      spawnRadius: 1
+      checkDistanceRadius: 53
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.91, y: 0, z: -4.36}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 18 | M: DayDesert_2 | S3 | G0'
+    moduleID: 2
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      spawnRadius: 2
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 2
+      enemyMoveTypeAfterPath: 1
+      wayPoints:
+      - {x: -7.4102235, y: 0, z: -0.56983757}
+      - {x: -8.239951, y: 0, z: -6.43779}
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 8.26, y: 0, z: -5}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 1
+        isElite: 0
+      spawnRadius: 2
+      checkDistanceRadius: 40
+      initTimeDelay: 0
+      enemyMoveType: 2
+      enemyMoveTypeAfterPath: 1
+      wayPoints:
+      - {x: 6.8387437, y: 0, z: -0.6035986}
+      - {x: 7.3543506, y: 0, z: -6.072257}
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -7.36, y: 0, z: -5}
+    - spawnDatas:
+      - time: 0
+        enemyID: 2
+        quantity: 1
+        isElite: 1
+      spawnRadius: 0.5
+      checkDistanceRadius: 52
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: -0.47}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 19 | M: DayDesert_8 | S0 | G1'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 1
+    gateRecordData:
+      useManualSetting: 1
+      gateValue:
+      - {x: 3, y: 2}
+      - {x: 4, y: 3}
+      isDeactiveSecondGate: 0
+      gateTypeValues:
+      - item1: 0
+        item2: 0
+      - item1: 0
+        item2: 0
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 1}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 10fbd952f76a9b2419e6cac25f43742f, type: 2}
+  - moduleName: ' 20 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 21 | M: DayDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 12d1a1be0159bb14cb2ca39a2afa2980, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 66a96f45ec91c45429deade6e29ed485, type: 2}
+    - {fileID: 11400000, guid: 6546e51683289de48a424dd4df27523c, type: 2}
+    - {fileID: 11400000, guid: 095232e636224304b9265fff57ecf065, type: 2}
+    - {fileID: 11400000, guid: 42f47f61c5b5c8740892c19d6cd775fb, type: 2}
+    - {fileID: 11400000, guid: f2de680c8e950cc4e8d731858295b1fd, type: 2}
+    - {fileID: 11400000, guid: b4678d96d50d5f243a771c2468bd1095, type: 2}
+    - {fileID: 11400000, guid: 5ffb386fdd05e6d4c9b9ed9c5100b24d, type: 2}
+    - {fileID: 11400000, guid: 5970a01726b9d3146a8278a3b9ef2308, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: a2a9ff49ef04bc94592edfe0a33917a8, type: 2}
+  - moduleName: ' 22 | M: DayDesert_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 23 | M: DayDesert_1 | S5 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      spawnRadius: 1.5
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: 2.21}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      spawnRadius: 1.5
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.9, y: 0, z: -3.84}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.48, y: 0, z: 6.29}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 1
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.54, y: 0, z: 8.88}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.32, y: 0, z: -0.01}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 24 | M: DayDesert_4 | S2 | G0'
+    moduleID: 4
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      spawnRadius: 1.6
+      checkDistanceRadius: 45
+      initTimeDelay: 0
+      enemyMoveType: 2
+      enemyMoveTypeAfterPath: 1
+      wayPoints:
+      - {x: 7.123585, y: 0, z: -0.5316925}
+      - {x: 8.147136, y: 0, z: -5.856888}
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -8, y: 0, z: -5}
+    - spawnDatas:
+      - time: 0
+        enemyID: 2
+        quantity: 1
+        isElite: 1
+      - time: 2
+        enemyID: 1
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 3
+        enemyID: 2
+        quantity: 1
+        isElite: 1
+      - time: 0.5
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 0.8
+      checkDistanceRadius: 54
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.23, y: 0, z: 2.25}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: dfdcf93b350ece947af05b9dc5f61aae, type: 2}
+  - moduleName: ' 25 | M: DayDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 7e1fbd49cbb05504f87a72faf6ba9314, type: 2}
+      - {fileID: 11400000, guid: 273f61abb1f54ba4080dc2720519caf6, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: b234ab30ae437884b8f2d9e16aa7dde0, type: 2}
+    - {fileID: 11400000, guid: e31455216ff7a3549b0d1d7ca97d35cb, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c4442e3017658984a8fe567e176faf2e, type: 2}
+  - moduleName: ' 26 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 27 | M: DayDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 28 | M: DayDesert_1 | S15 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.09, y: 0, z: 1.1}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.66, y: 0, z: 0.5400171}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: 0.8000183}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.61, y: 0, z: 0.6000171}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: 0.8000183}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.09, y: 0, z: -4.42}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.66, y: 0, z: -4.9800024}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: -4.720001}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.61, y: 0, z: -4.9200025}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: -4.720001}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.09, y: 0, z: -10.28}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.66, y: 0, z: -10.839988}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: -10.579987}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.61, y: 0, z: -10.779987}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.4
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.6
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: -10.579987}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 29 | M: DayDesert_1 | S12 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: -1.63}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.8, y: 0, z: -1.6300111}
+    - spawnDatas:
+      - time: 0
+        enemyID: 2
+        quantity: 1
+        isElite: 1
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.06, y: 0, z: -3.329011}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: -1.6300111}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.8, y: 0, z: -1.6300111}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: -1.6300111}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0, y: 0, z: 16.549011}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -0.8, y: 0, z: 16.549006}
+    - spawnDatas:
+      - time: 0
+        enemyID: 2
+        quantity: 1
+        isElite: 1
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.06, y: 0, z: 14.850003}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -1.6, y: 0, z: 16.549006}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 0.8, y: 0, z: 16.549006}
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      - time: 0.5
+        enemyID: 4
+        quantity: 1
+        isElite: 0
+      spawnRadius: 0.05
+      checkDistanceRadius: 43
+      initTimeDelay: 0
+      enemyMoveType: 1
+      enemyMoveTypeAfterPath: 1
+      wayPoints: []
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 1.6, y: 0, z: 16.549006}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 30 | M: DayDesert_4 | S1 | G0'
+    moduleID: 4
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1.5
+      checkDistanceRadius: 57
+      initTimeDelay: 0
+      enemyMoveType: 2
+      enemyMoveTypeAfterPath: 1
+      wayPoints:
+      - {x: 7.7487803, y: 0, z: -0.23243666}
+      - {x: 8.710783, y: 0, z: -3.6298976}
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: -8.71, y: 0, z: -5.14}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 31 | M: DayDesert_3 | S1 | G0'
+    moduleID: 3
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas:
+    - spawnDatas:
+      - time: 0
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 2
+        isElite: 0
+      - time: 1
+        enemyID: 4
+        quantity: 3
+        isElite: 0
+      spawnRadius: 1.5
+      checkDistanceRadius: 67
+      initTimeDelay: 0
+      enemyMoveType: 2
+      enemyMoveTypeAfterPath: 1
+      wayPoints:
+      - {x: -8.248978, y: 0, z: -0.03875494}
+      - {x: -9.25908, y: 0, z: -2.5066504}
+      spawnInfinityWithEnemy: 0
+      localPosition: {x: 9.14, y: 0, z: -5.06}
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: d053a42dff3355b49847f71ba80c17c0, type: 2}
+    utilityRecordDatasObjectSO: []
+  moveSpeedUtilityRecords:
+  - {fileID: 11400000, guid: d20f9923007562949a777e19ccaa7160, type: 2}
+  - {fileID: 11400000, guid: d6512b00aebf7ab4ea65f9775b552b6c, type: 2}
+  - {fileID: 11400000, guid: 7fe9ce35f8df56447adc42b0926c0743, type: 2}
+  - {fileID: 11400000, guid: 3967049d1fc57484abe7b7fa928ff51b, type: 2}
+  - {fileID: 11400000, guid: 39c4e1d937be6b84b81377a0242d6100, type: 2}
+  - {fileID: 11400000, guid: 0c35754f5b47db04a942da6623841206, type: 2}
+  - {fileID: 11400000, guid: afe25bb39f488b146a335acca6aafd35, type: 2}
+  - {fileID: 11400000, guid: f5446f27abd96af47965c27027c50db0, type: 2}
+  - {fileID: 11400000, guid: 96787f2bb8246df44bdea53915652ac7, type: 2}
+  - {fileID: 11400000, guid: a55b5d80ee5ecac40877f33d9910e8fa, type: 2}
+  - {fileID: 11400000, guid: 241959b536cb1084aad1b44353ae5e55, type: 2}
+  - {fileID: 11400000, guid: 9ad2e9090bb3edf41921464b126eb2a7, type: 2}
+  - {fileID: 11400000, guid: 0555a3586fe563848b322c54aecfb324, type: 2}
+  - {fileID: 11400000, guid: 425e0d4b2579b934c89c7c4984df3d8f, type: 2}
+  finishLevelRecordData:
+    finishType: 1
+    spawnEnemyWithBoss: 0
+    randomModuleRecordDatas:
+    - 3
+    - 3
+    - 7
+    - 9
+    - 8
+    - 8
+    - 4
+    - 2
+    - 9
+    - 9
+    bossFinishModuleRecordData:
+      moduleName:
+      moduleID:
+      moduleModelRecordData:
+        jumpUtilityRecordDatas: []
+        movingPlatformDefaultActive: 0
+      spawnPointDatas: []
+      trapDefaultPosition: {x: 0, y: 0, z: 0}
+      utilityDefaultPosition: {x: 0, y: 0, z: 0}
+      spawnPointDefaultPosition: {x: 0, y: 0, z: 0}
+      gateDefaultPosition: {x: 0, y: 0, z: 0}
+      hasGate: 0
+      gateRecordData:
+        useManualSetting: 0
+        gateValue: []
+        isDeactiveSecondGate: 0
+        gateTypeValues: []
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: {x: 0, y: 0, z: 0, w: 0}
+      trapRecordDatasObjectSO: []
+      utilityRecordDatasObjectSO: []
+    bossPrefab: {fileID: 0}
+    leftRightIntroCamDistance: {x: 0, y: 0}
+  hasTutorial: 0
+  tutorialRecordData:
+    localPosition: {x: 0, y: 0, z: 0}
+    tutorialID: 0

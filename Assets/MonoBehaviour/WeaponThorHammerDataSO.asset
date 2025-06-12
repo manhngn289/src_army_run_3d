@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8620bc264b4d1e3f97e751b12241202, type: 3}
+  m_Name: WeaponThorHammerDataSO
+  m_EditorClassIdentifier:
+  attackRange: 20
+  attackRadius: 1
+  attackDelay:
+  - 0.8
+  - 0.6
+  - 0.4
+  dmgMultiplier:
+  - 11
+  - 11
+  - 11
+  attackFxPreparePerLevel:
+  - {fileID: 198907612346485905, guid: 2f377373794fa9b43b71395d586766ee, type: 2}
+  - {fileID: 198863816065602174, guid: 52eda85edbc17b5418917f0d8d976017, type: 2}
+  - {fileID: 198304234743795210, guid: ee2bfdc42b69c3d4b9e5c3cad725c9ae, type: 2}
+  attackFxPerLevel:
+  - {fileID: 198309284565956181, guid: c67aec30d2a2c534c980e95cd0cfdda7, type: 2}
+  - {fileID: 198949327358271734, guid: 8c263af15f2b2e242afe0146df78ea30, type: 2}
+  - {fileID: 198195865989739877, guid: 75491184a3eee0843aa11a2cbbbcb20c, type: 2}

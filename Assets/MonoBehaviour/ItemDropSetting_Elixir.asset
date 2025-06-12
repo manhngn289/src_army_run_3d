@@ -1,0 +1,164 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb175adbc34499e0c6abe49e929d08, type: 3}
+  m_Name: ItemDropSetting_Elixir
+  m_EditorClassIdentifier:
+  isJumpWhenSpawn: 1
+  autoCheckPlayer: 0
+  radiusJump: 1.5
+  jumpPower: 1.5
+  minRadiusJump: 0.75
+  jumpDuration: 1.25
+  speedMoveTarget: 20
+  maxSpeedRotate: 7
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.5
+      inSlope: 7.2670927
+      outSlope: 7.2670927
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.06280049
+    - serializedVersion: 3
+      time: 0.15
+      value: 1
+      inSlope: 2.233075E-06
+      outSlope: 2.233075E-06
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.27433017
+    - serializedVersion: 3
+      time: 0.39600965
+      value: 0.032743998
+      inSlope: -8.041303
+      outSlope: -8.041303
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.08386983
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.4001648
+      value: 0.004660601
+      inSlope: 0.06326794
+      outSlope: 0.06326794
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07167732
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.40572765
+      value: 0.020818189
+      inSlope: 3.3651915
+      outSlope: 3.3651915
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20019455
+      outWeight: 0.21162781
+    - serializedVersion: 3
+      time: 0.55
+      value: 0.33
+      inSlope: -0.0006700174
+      outSlope: -0.0006700174
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.7526204
+    - serializedVersion: 3
+      time: 0.69347817
+      value: 0.03300273
+      inSlope: -3.228175
+      outSlope: -3.228175
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20728669
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.7005128
+      value: 0.0083488375
+      inSlope: -0.0047586793
+      outSlope: -0.0047586793
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.54971254
+    - serializedVersion: 3
+      time: 0.7088456
+      value: 0.020578586
+      inSlope: 1.3757643
+      outSlope: 1.3757643
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4916377
+    - serializedVersion: 3
+      time: 0.8
+      value: 0.11
+      inSlope: -0.007827421
+      outSlope: -0.007827421
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20122531
+      outWeight: 0.8231334
+    - serializedVersion: 3
+      time: 0.8957883
+      value: 0.008634126
+      inSlope: -2.091296
+      outSlope: -2.091296
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.41924268
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9
+      value: 0
+      inSlope: 0.73470247
+      outSlope: 0.73470247
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9047606
+      value: 0.0054808846
+      inSlope: 1.0519071
+      outSlope: 1.0519071
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 1
+    - serializedVersion: 3
+      time: 0.95
+      value: 0.03
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.0519922
+      outSlope: -1.0519922
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.9808109
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  takeFX: {fileID: 198288530771835045, guid: 180e441b89d877941995a4a2a8b937eb, type: 2}

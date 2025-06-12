@@ -1,0 +1,894 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab674bbdf86bdf6191915bde8588e37, type: 3}
+  m_Name: Level14_LevelDataTemplate
+  m_EditorClassIdentifier:
+  chapterID: 0
+  runCoin: 1
+  hasVip: 0
+  moduleControllerRecords:
+  - moduleName: ' 01 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 02 | M: OrageVillage_00A | S0 | G0'
+    moduleID: 00A
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 03 | M: OrageVillage_00B | S0 | G0'
+    moduleID: 00B
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 04 | M: OrageVillage_3 | S0 | G0'
+    moduleID: 3
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 06d6662554d55ff488b465640967874c, type: 2}
+    - {fileID: 11400000, guid: a0650244808c8a24aa9f06284eb39985, type: 2}
+    - {fileID: 11400000, guid: fcd78e2dfe536a441a1fb15231d91865, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 05 | M: OrageVillage_6 | S0 | G0'
+    moduleID: 6
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 06 | M: OrageVillage_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 511bf79b910fb7740b58f8f21dfc57fb, type: 2}
+    - {fileID: 11400000, guid: 68b40d4afc3bc964b9761a40eff8b77e, type: 2}
+    - {fileID: 11400000, guid: f1c46933bed3c83479aacfdf366ecad2, type: 2}
+    - {fileID: 11400000, guid: 19ca0750fc8f3984eb0c398a7f82daea, type: 2}
+    - {fileID: 11400000, guid: 47b3fcd777be1474e96976fe6813cc1c, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 07 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 0e6512c5cb721fb4794e2cbcca533806, type: 2}
+    - {fileID: 11400000, guid: 78083e45ce3b6eb4db765186652e7959, type: 2}
+    - {fileID: 11400000, guid: cb856d6060cd9294e9ea4f270668679d, type: 2}
+    - {fileID: 11400000, guid: 21ca95efc625b1540a6f6bcde2e4013e, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 650f8a959650e7f4b9875fdcaf7f51d3, type: 2}
+  - moduleName: ' 08 | M: OrageVillage_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 4529247a0f776d945b9c15eed8841413, type: 2}
+    - {fileID: 11400000, guid: 490f2b436b84cf3489e85d0d07a2d249, type: 2}
+    - {fileID: 11400000, guid: 3295ced8dbf8b4a44a10bedb8aa17a12, type: 2}
+    - {fileID: 11400000, guid: c1d083e1b8dae3541ac7f1b03009f00c, type: 2}
+    - {fileID: 11400000, guid: 33c9efff8a1333c4ea27b2b131f7c3b4, type: 2}
+    - {fileID: 11400000, guid: dd8ad81d362cd974388f547546c28d17, type: 2}
+    - {fileID: 11400000, guid: 3c1a8892ab7827744ade147ba4bd069a, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: afb0160cdbdec734984918f37fc03f99, type: 2}
+  - moduleName: ' 09 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 6f9d45a36fceda14aa61416b400cf004, type: 2}
+    - {fileID: 11400000, guid: 660a778bcb2c45e409032be2a6250a95, type: 2}
+    - {fileID: 11400000, guid: 5a6a04f0017a7bd41b144ed2027c72c4, type: 2}
+    - {fileID: 11400000, guid: 6e5afed5f0f2a8d4a97cbea91b76e197, type: 2}
+    - {fileID: 11400000, guid: 4a7f138e80cfb204293096e76d46e18c, type: 2}
+    - {fileID: 11400000, guid: 21e8e71edebad7b4db4bab95de59628a, type: 2}
+    - {fileID: 11400000, guid: 05972def6568abf4f9d59b4f780db73f, type: 2}
+    - {fileID: 11400000, guid: 73154191380531d41b0876621332dcf5, type: 2}
+    - {fileID: 11400000, guid: 2745005047a3c624691bc2e68ae35bb7, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 10 | M: OrageVillage_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 795e1f6d3dbf6474097e7d567c68cb78, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 6a60047c3deec2c4c9d78c3a4af374f3, type: 2}
+    - {fileID: 11400000, guid: 13903bc7f99776549816274e6335b774, type: 2}
+    - {fileID: 11400000, guid: 859ae2b80053f3d45aafbc4c273a4144, type: 2}
+    - {fileID: 11400000, guid: 8b19add6a57d8f046a1992bce7361536, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c94d22f744ae8474d8bfa43723c71642, type: 2}
+    - {fileID: 11400000, guid: 866c3e30da28ea24bb377d05dff7d058, type: 2}
+    - {fileID: 11400000, guid: 008a0e291ba969f419f70004b5e68f1e, type: 2}
+  - moduleName: ' 11 | M: OrageVillage_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 7bb4f7ece69da09479c94d9cf3f2ee99, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 379995593ecd49245b101f1e7af21b0c, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 12 | M: OrageVillage_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5.15}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 2f2347c0652502546b62467fd956a050, type: 2}
+    - {fileID: 11400000, guid: b612fe42ec0c8b04f83d92e69b1d4535, type: 2}
+    - {fileID: 11400000, guid: f8c5bb08efffc364880b2eca5c4910b4, type: 2}
+    - {fileID: 11400000, guid: 4b8f0421f3aa0124cb48175ddcabf3fa, type: 2}
+    - {fileID: 11400000, guid: ea02fa9077f379c47afe2b4cb714e115, type: 2}
+    - {fileID: 11400000, guid: 64491cb12c84c22418cd0bc2c93c2592, type: 2}
+    - {fileID: 11400000, guid: 4d334924a1d30ea4d812a65304d50b05, type: 2}
+    - {fileID: 11400000, guid: fb808f3cda0040840b603a85c9b1a212, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 13 | M: OrageVillage_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: edfdb8da96b3db9459ef4b7988fd3755, type: 2}
+    - {fileID: 11400000, guid: 17e4fd64923e2984382880e291062d1b, type: 2}
+    - {fileID: 11400000, guid: be5e4ed1c75e43f499f015de5d41b718, type: 2}
+    - {fileID: 11400000, guid: 38aa4fcf107547c4d857a7310a4b81e2, type: 2}
+    - {fileID: 11400000, guid: fbbbbb77d579f7345bf9c0a690953fb7, type: 2}
+    - {fileID: 11400000, guid: 87f0b0037ac73654e8bedb78f7542125, type: 2}
+    - {fileID: 11400000, guid: 0789c3f9bc4728145a351d91318e8c97, type: 2}
+    - {fileID: 11400000, guid: e74c844c9271320419d2ade09be7c7ae, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 14 | M: OrageVillage_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: e0977cd419dbe024a8a0bc72c3f3a75f, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: fdb895e4a7885fb4eba17ff2fa94c73c, type: 2}
+    - {fileID: 11400000, guid: 8a302bf924bbfbc4f853284785151b6c, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f9e07fa61408ba747be19a265f463bf0, type: 2}
+    - {fileID: 11400000, guid: f5dc376c16cbadb4b9218f783ec76d92, type: 2}
+    - {fileID: 11400000, guid: 599186ca08e1562489f487dd5b99c109, type: 2}
+    - {fileID: 11400000, guid: 58866423f95f47a4ba2957e09547e6e3, type: 2}
+  - moduleName: ' 15 | M: OrageVillage_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 1bd97257e40569244aee39a2ee3e0f76, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c5a7add04ffcdd3488a12c293bf09b22, type: 2}
+    - {fileID: 11400000, guid: 64e47178bda2f694d8611071f4ccbaec, type: 2}
+    - {fileID: 11400000, guid: cd705f365deb9e24b90d6c038465c153, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 56ce719201e83244290950087c04f90e, type: 2}
+    - {fileID: 11400000, guid: f1a9af6eef6d8084494a6a991b90afb6, type: 2}
+    - {fileID: 11400000, guid: 642ddc093562b22488c9f216cf517073, type: 2}
+  - moduleName: ' 16 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c1504da0fb8af3c47b4ff1a4bbae6e5c, type: 2}
+    - {fileID: 11400000, guid: 5d6f3bc362d335a4fb6c613b854bde4f, type: 2}
+    - {fileID: 11400000, guid: bb8cea83d3facca4199cda20757edcc2, type: 2}
+    - {fileID: 11400000, guid: c8d8b6a56556bd241a72f756115da942, type: 2}
+    - {fileID: 11400000, guid: 998bd8b91f3b61f4e91c53508a7ec74b, type: 2}
+    - {fileID: 11400000, guid: 273d20c72da56cd49a20a6df8c02276b, type: 2}
+    - {fileID: 11400000, guid: 6b6d442bf3a41a94aa82ccf4d8e65290, type: 2}
+    - {fileID: 11400000, guid: 3e09031125cd14e47a529e07c7c94ced, type: 2}
+    - {fileID: 11400000, guid: 8763276e2058a194ab773a6e10c49459, type: 2}
+    - {fileID: 11400000, guid: db00fd2d737f5ee439461760dad41096, type: 2}
+    - {fileID: 11400000, guid: b0fd1bbb9cc505d48bbecd8ee4252295, type: 2}
+    - {fileID: 11400000, guid: de656c2bea0c51c489843e93effe0e64, type: 2}
+    - {fileID: 11400000, guid: 5d79fb7dfea4e364a8ac5aeb12c79a07, type: 2}
+    - {fileID: 11400000, guid: 87536ee10df4f20438e038848724417e, type: 2}
+    - {fileID: 11400000, guid: 949aba9e6bd1ef84c9d4a48e1f791b65, type: 2}
+    - {fileID: 11400000, guid: 73c7eb4c878ceaf4188445dff493935f, type: 2}
+    - {fileID: 11400000, guid: 4ab16fea596b2ec4187041d4cb37eb06, type: 2}
+    - {fileID: 11400000, guid: c3e66c5bd94e151459292e0bd3159f29, type: 2}
+    - {fileID: 11400000, guid: 2e17808c14d781741b9b9d38d32c85ef, type: 2}
+    - {fileID: 11400000, guid: 71117705c6ca1ee4cab89d0608c026ec, type: 2}
+    - {fileID: 11400000, guid: 6b16c151159e26948b98dd5797b23a8d, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 140c37d310f199a4c9d132156779d12a, type: 2}
+    - {fileID: 11400000, guid: 2eb322d7a3783df4bacd4fe10bc18129, type: 2}
+  - moduleName: ' 17 | M: OrageVillage_5B | S0 | G0'
+    moduleID: 5B
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 99a1dcdb1f6bc6e4fbbe510c9c1c5704, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: b4d16527d2502284a9024d793add7490, type: 2}
+  - moduleName: ' 18 | M: OrageVillage_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 63b39eddb23638c4691fe489b403aeae, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: ed6b1aa35a5558d4db2183b9caeea805, type: 2}
+    - {fileID: 11400000, guid: 039532e8db2e344469f749348d3a482f, type: 2}
+    - {fileID: 11400000, guid: 562c810c543bd97469f8904b85f9bbf1, type: 2}
+    - {fileID: 11400000, guid: 555b2ec25b0a2434fb873adf0897a651, type: 2}
+    - {fileID: 11400000, guid: 0a9de3be9ef35ee46af8c46d539cc9a6, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 8be1a2bce9e7e3f459de681877d312f1, type: 2}
+    - {fileID: 11400000, guid: 91d2026149ec3e94983e9fc878def2aa, type: 2}
+    - {fileID: 11400000, guid: bab0849e0fe8e6f4e843e5a9228bf83d, type: 2}
+    - {fileID: 11400000, guid: 1c1e2444ce979074f8f8e62fa1d727a5, type: 2}
+  - moduleName: ' 19 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 297af4a8d255dbe4fa28c94d2536a11e, type: 2}
+    - {fileID: 11400000, guid: fb96fb7405681ea4598bec51a696f443, type: 2}
+  - moduleName: ' 20 | M: OrageVillage_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c750c85dbc4da8241957058a839bbe51, type: 2}
+    - {fileID: 11400000, guid: bd6f21fb05f136f4e84f3bb09c06eccb, type: 2}
+    - {fileID: 11400000, guid: cceae38498d0373498ecc0e9fa8cb1ec, type: 2}
+    - {fileID: 11400000, guid: 5a27abdd865f3e149ae5b7184062050f, type: 2}
+    - {fileID: 11400000, guid: e0ac38a8f06d7104db58bb60832790f6, type: 2}
+    - {fileID: 11400000, guid: 488ab4d7f9fd49e4db4609d7d43f4c66, type: 2}
+    - {fileID: 11400000, guid: a39304cd617dc1442a28c9eae36fc102, type: 2}
+    - {fileID: 11400000, guid: d9347714cc528f149b6631df3ce54a87, type: 2}
+    - {fileID: 11400000, guid: 0d9756073933b894a82906eb6b7248be, type: 2}
+    - {fileID: 11400000, guid: b17c5c4119b2ed74194ef0179645e458, type: 2}
+    - {fileID: 11400000, guid: f75e3aadb440a4543ad0c02cf80757b9, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 0fa413dea4e9cd043b78e0b9cc8e8ffd, type: 2}
+  - moduleName: ' 21 | M: OrageVillage_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: ca9bbc0a09bb6644eb1913a9b55bdcd7, type: 2}
+  - moduleName: ' 22 | M: OrageVillage_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: a71525a08d78a8247b050ff078cc7824, type: 2}
+    - {fileID: 11400000, guid: 22ad6cb0f0c820247b2bb824f30174bb, type: 2}
+    - {fileID: 11400000, guid: 1a15e64ded25d2744abdbc1d54811451, type: 2}
+    - {fileID: 11400000, guid: 8ccc351272645044998c30d91597e040, type: 2}
+    - {fileID: 11400000, guid: 49abac9f863c82344b740d0977be2a01, type: 2}
+    - {fileID: 11400000, guid: cf11ff33f2deab744921937364c41a4a, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 23 | M: OrageVillage_6 | S0 | G0'
+    moduleID: 6
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 08614293b1916674bb74d5a551392229, type: 2}
+    - {fileID: 11400000, guid: 385589feaaecb5b48a50fdb63fb51cbd, type: 2}
+    - {fileID: 11400000, guid: 9ee80e0e36c662049a6fcd36b92474fd, type: 2}
+    - {fileID: 11400000, guid: 681fb37d864d66e4b8385eeccb054ce4, type: 2}
+    - {fileID: 11400000, guid: 35c7e7dcff7f0ef40b3e72094d07573f, type: 2}
+    - {fileID: 11400000, guid: 39997cb95a7f1f246895f1e4c8a50d96, type: 2}
+    - {fileID: 11400000, guid: e096f0246955a6d4b9e70d49cf801d26, type: 2}
+    - {fileID: 11400000, guid: ad5cf72b357ce9847b736cb3d778891d, type: 2}
+    - {fileID: 11400000, guid: 76117ecd715be5f4a82a59ff5e350cae, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 4416461c51ff1384a9f2421c94f5989d, type: 2}
+  - moduleName: ' 24 | M: OrageVillage_7 | S0 | G0'
+    moduleID: 7
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 04cd946de0e74a34aa8352977a2852e1, type: 2}
+    - {fileID: 11400000, guid: f738295d73059524bb22b92f593f50f5, type: 2}
+    - {fileID: 11400000, guid: f8d93102eb43b74428efa2d74bb82576, type: 2}
+    - {fileID: 11400000, guid: 5ef762d2a676d8f45926d886a446ddbe, type: 2}
+  - moduleName: ' 25 | M: OrageVillage_5C | S0 | G0'
+    moduleID: 5C
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 38eb2647bccdbd74382fefb3a34642f4, type: 2}
+    - {fileID: 11400000, guid: b885963ac14eff940bd2c211e70bb47b, type: 2}
+    - {fileID: 11400000, guid: f9e8f132597072f4ea3391e416a084c2, type: 2}
+    - {fileID: 11400000, guid: 7fef30da10a66d3499a415d3255f379c, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: baa7257a8f674e74797eb17238559dfa, type: 2}
+    - {fileID: 11400000, guid: 5a28bd18371d82244b572b93ccbe95fb, type: 2}
+    - {fileID: 11400000, guid: 3763834143bb9a74083ca717a0e6c51c, type: 2}
+    - {fileID: 11400000, guid: 4b117604da50e78488334545f1cf914a, type: 2}
+  - moduleName: ' 26 | M: OrageVillage_5C | S0 | G0'
+    moduleID: 5C
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5.36}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 676ddcc2cb23c92418c289149df54343, type: 2}
+    - {fileID: 11400000, guid: 8a89d1af2dd4e61458f15abd014134b8, type: 2}
+    - {fileID: 11400000, guid: 536cee69fcde8ba409d33272275b4a6c, type: 2}
+    - {fileID: 11400000, guid: 9a13900407541294694ec3a56e0d6e3a, type: 2}
+    - {fileID: 11400000, guid: 254ab274c34a9574abce952d5d34449c, type: 2}
+    - {fileID: 11400000, guid: 3777dcff9a2c80240a7811b1c88703d7, type: 2}
+    - {fileID: 11400000, guid: c6f6aeb6e8143ed47bddadd229d0d338, type: 2}
+    - {fileID: 11400000, guid: a6cf0d40933c4fb4cb49bcb1e1c058fb, type: 2}
+    - {fileID: 11400000, guid: 1384b22fbd06b2d40af34e18f0728bad, type: 2}
+    - {fileID: 11400000, guid: 209d1f9776e23d24a9aaf11c6070cf56, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 463e30ca9d6af994b9f4b3a2fca1f382, type: 2}
+    - {fileID: 11400000, guid: 42d7aca2493ccdf458a740a905b76ccb, type: 2}
+    - {fileID: 11400000, guid: 9a22b3ce9db3fc74f9622d55d3898574, type: 2}
+    - {fileID: 11400000, guid: cb2bdbd58158fdf48b8ec04dcef66439, type: 2}
+  - moduleName: ' 27 | M: OrageVillage_5C | S0 | G0'
+    moduleID: 5C
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 043123cdc172cad49a4d367fe2482a51, type: 2}
+    - {fileID: 11400000, guid: 46f32a84e399e0e449dfaa36ef22613f, type: 2}
+    - {fileID: 11400000, guid: 0df17d2cee886b04da6f1384cc8c5b85, type: 2}
+    - {fileID: 11400000, guid: 09be148069d8f42468a4be19109cf305, type: 2}
+    - {fileID: 11400000, guid: ed3a06bd78d6f9e4f8a98b2b99e2f1ee, type: 2}
+    - {fileID: 11400000, guid: d934930d0ad0e4c41b7c2a0c0fb34b90, type: 2}
+    - {fileID: 11400000, guid: d27a43f6b11e9ca4083c99a4003e75e3, type: 2}
+    - {fileID: 11400000, guid: 9d5e7f6482baea849bbe7fa5f119a3ea, type: 2}
+    - {fileID: 11400000, guid: f62ab6a9523cc9a469751db8c03342d9, type: 2}
+    - {fileID: 11400000, guid: 92ec58f757727c74f8b74ebce2069d99, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: fe80d51a8ef21aa4aa45855a43d976d2, type: 2}
+    - {fileID: 11400000, guid: c8888718bef826647a78f68b7b563707, type: 2}
+    - {fileID: 11400000, guid: cd4b310603b22244f94834f32a06e230, type: 2}
+    - {fileID: 11400000, guid: 8dadf04cc4d16f644a3061d9dac4abeb, type: 2}
+    - {fileID: 11400000, guid: 5ac229ad5a9b51d4ba8e8273513ad753, type: 2}
+    - {fileID: 11400000, guid: 11240696a207f224cbb85571cc867c55, type: 2}
+    - {fileID: 11400000, guid: 126c983d8edd27648a93bf36f0c45bde, type: 2}
+    - {fileID: 11400000, guid: 35888019d2b1c734ca16eae16af06643, type: 2}
+    - {fileID: 11400000, guid: 9e70f21fd1cc7f9448fc778f227098f0, type: 2}
+    - {fileID: 11400000, guid: 0f62eacb55f217f4bb326a6dc948fc4b, type: 2}
+  - moduleName: ' 28 | M: OrageVillage_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 17f3eb1eb66941343a57e93486054549, type: 2}
+    - {fileID: 11400000, guid: 887908b462bb68741b5e181ae0cf4784, type: 2}
+    - {fileID: 11400000, guid: 8d17cfc937eba7344aeb4ad31357f490, type: 2}
+    - {fileID: 11400000, guid: be63a125bd6ffac47ab5dd4f6d1f8d7d, type: 2}
+    - {fileID: 11400000, guid: 9b5f862147c82d740ab10c14ce7cdf53, type: 2}
+    - {fileID: 11400000, guid: d5a88543ca05d1243a390a1e993d8989, type: 2}
+    - {fileID: 11400000, guid: 0fd7728d412a52d4b902cf248a84220a, type: 2}
+    - {fileID: 11400000, guid: 78fa17f2e2a6ac84aba192a715a797f7, type: 2}
+    - {fileID: 11400000, guid: dcbd855f81ab5b742955817549a561a9, type: 2}
+    - {fileID: 11400000, guid: a0952a732a99b524fbe5e4bb47998a63, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 29 | M: OrageVillage_7 | S0 | G0'
+    moduleID: 7
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: ab8301d096bd0ae4aa17dfa6ef76093a, type: 2}
+    - {fileID: 11400000, guid: bade02576580c954f8770f3fb9d20264, type: 2}
+    - {fileID: 11400000, guid: edb81f359ee0c114d82c10df12e13dd6, type: 2}
+    - {fileID: 11400000, guid: 99b07925cc2a52c44b83b1d1f83f49c8, type: 2}
+    - {fileID: 11400000, guid: f413ac93842df354f952fa852747a5a1, type: 2}
+    - {fileID: 11400000, guid: bfbbf491aa4930b4c8a21acd2a4aa8a9, type: 2}
+    - {fileID: 11400000, guid: f137d520a2f2e544e83d8c6f01d7c920, type: 2}
+    - {fileID: 11400000, guid: f4069b24cd3a8af47a42f544e043c6f1, type: 2}
+    - {fileID: 11400000, guid: f27c4a6e2cac39442a5a731a467694f8, type: 2}
+    - {fileID: 11400000, guid: 97d1e110760dc6240989fe6a5f240e58, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 8ed9077c5ec98874f9aaa76145f24b34, type: 2}
+    - {fileID: 11400000, guid: 4699d373b4e2b4842abe609419b3df2d, type: 2}
+    - {fileID: 11400000, guid: 28f80cd9d7fcb674abe6fee88c154b13, type: 2}
+    - {fileID: 11400000, guid: 95c8ab9d918f4b84d99f2897413b1531, type: 2}
+    - {fileID: 11400000, guid: 85a45e9a470e46740b865c0daf8be86e, type: 2}
+  - moduleName: ' 30 | M: OrageVillage_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: a09002abd21152d4798c2639a5447d1f, type: 2}
+    - {fileID: 11400000, guid: 43ed9e3af05941a438f3236c3d658a2f, type: 2}
+    - {fileID: 11400000, guid: e4233b56df1262e44af1b47d48d7fefb, type: 2}
+    - {fileID: 11400000, guid: 6cc58328c5706504f940dddcd58d6ab5, type: 2}
+    - {fileID: 11400000, guid: d1f5aaa0cf63fb249bbf6e5c656e55dd, type: 2}
+    - {fileID: 11400000, guid: 78ab729f80769934f856c07f47837e92, type: 2}
+    - {fileID: 11400000, guid: 5a77db28faab5874e9f14cba14d27f25, type: 2}
+    - {fileID: 11400000, guid: 79c68ebd7ad9efc4faec943ce6e0676c, type: 2}
+    - {fileID: 11400000, guid: ada899bd7164e3843b21e436aa363fa2, type: 2}
+    - {fileID: 11400000, guid: bf251851210ad374d81cb4786247498a, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: effb98d99e84d614e84fc6c47ca07f4b, type: 2}
+    - {fileID: 11400000, guid: 73573ffad9df0e6499ed7e0b00733076, type: 2}
+    - {fileID: 11400000, guid: f6fbc08992e9f9e4d8a48ddeb9b1a020, type: 2}
+    - {fileID: 11400000, guid: f30a6b7f3fa55be488f4948401e06e39, type: 2}
+    - {fileID: 11400000, guid: f225d07745184bf4c9064cbe51e7abef, type: 2}
+  moveSpeedUtilityRecords:
+  - {fileID: 11400000, guid: 3aecc6d12bb3c5445aea68f7a9b51686, type: 2}
+  - {fileID: 11400000, guid: dee5c2822162c6f41ab92c5d67283174, type: 2}
+  - {fileID: 11400000, guid: 71586898a1cfe4644845b3b879192d5b, type: 2}
+  - {fileID: 11400000, guid: a1300e6039106664cb09bc1eeb72cb43, type: 2}
+  - {fileID: 11400000, guid: 0be70c749ea27ac44a65def386a5bc27, type: 2}
+  - {fileID: 11400000, guid: 4c96d354609ea9045910c62e5ec5edae, type: 2}
+  - {fileID: 11400000, guid: 340ca053f96995a4fb3047219a03005f, type: 2}
+  - {fileID: 11400000, guid: 202403bee1a7f924a96c7bdc8d6426e9, type: 2}
+  - {fileID: 11400000, guid: 8b0bc3571e836d0498034335ce260498, type: 2}
+  - {fileID: 11400000, guid: 3fcde5ec6251dc6488bbb9428009dad7, type: 2}
+  - {fileID: 11400000, guid: 40f06b1103db1bd4a9111754a97c909e, type: 2}
+  - {fileID: 11400000, guid: b12b0f9e4d8476f4e9c59538e1a07a06, type: 2}
+  finishLevelRecordData:
+    finishType: 1
+    spawnEnemyWithBoss: 0
+    randomModuleRecordDatas:
+    - 4
+    - 4
+    - 7
+    - 4
+    - 3
+    - 8
+    - 8
+    - 7
+    - 6
+    - 9
+    bossFinishModuleRecordData:
+      moduleName:
+      moduleID:
+      moduleModelRecordData:
+        jumpUtilityRecordDatas: []
+        movingPlatformDefaultActive: 0
+      spawnPointDatas: []
+      trapDefaultPosition: {x: 0, y: 0, z: 0}
+      utilityDefaultPosition: {x: 0, y: 0, z: 0}
+      spawnPointDefaultPosition: {x: 0, y: 0, z: 0}
+      gateDefaultPosition: {x: 0, y: 0, z: 0}
+      hasGate: 0
+      gateRecordData:
+        useManualSetting: 0
+        gateValue: []
+        isDeactiveSecondGate: 0
+        gateTypeValues: []
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: {x: 0, y: 0, z: 0, w: 0}
+      trapRecordDatasObjectSO: []
+      utilityRecordDatasObjectSO: []
+    bossPrefab: {fileID: 0}
+    leftRightIntroCamDistance: {x: 0, y: 0}
+  hasTutorial: 0
+  tutorialRecordData:
+    localPosition: {x: 0, y: 0, z: 0}
+    tutorialID: 0

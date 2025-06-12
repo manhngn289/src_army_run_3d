@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 942af86720190b05fb0e2461591e3b01, type: 3}
+  m_Name: UtilityBarrel_0
+  m_EditorClassIdentifier:
+  objectRecordableDataType: 32
+  parentName: Utility
+  localPos: {x: 1.25, y: 0, z: 0}
+  localRotation: {x: 0, y: 0, z: 0, w: 1}
+  isActive: 1
+  maxHp: 40
+  drumType: 0
+  drumMode: 0
+  troopInUtility: 3
+  speed: 1.5
+  distanceCheckPlayer: 45
+  hpPerBarrelTemps:

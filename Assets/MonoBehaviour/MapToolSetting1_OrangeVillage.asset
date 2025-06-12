@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a728a4e760fa07b3376fd3851537e4ad, type: 3}
+  m_Name: MapToolSetting1_OrangeVillage
+  m_EditorClassIdentifier:
+  moduleControllerPrefab: {fileID: 114704825573290760, guid: 009caaeb542ee574bbe87ddd4459f0a0, type: 2}
+  startModulePrefabs:
+  - {fileID: 114937248887738239, guid: a45af5f1b2a4a1749bedaa43e61c26f1, type: 2}
+  - {fileID: 114549597073723259, guid: 3c4e8f3aded0b764d8f18ac0c3e2a665, type: 2}
+  gameAllTrapSO: {fileID: 11400000, guid: 3e475b260f30cd4438af72750b32bb5b, type: 2}
+  gameAllUtilitySO: {fileID: 11400000, guid: a9a624c4b0cfff943ad196cef87375d6, type: 2}
+  chapterModules: {fileID: 11400000, guid: e02fe029ccd312242963318950328d0d, type: 2}
+  finishLevelPrefab: {fileID: 114266525757483898, guid: 2c3c8c4c60af4b14991cb4e38b9d458a, type: 2}
+  firstFinishModules: {fileID: 11400000, guid: 482290e455925e4468a5fd5c08bab125, type: 2}
+  otherFinishModules: {fileID: 11400000, guid: 19dc5f02a4c19cb48bcbdadd0c09868b, type: 2}
+  bossFinishModules: {fileID: 114689759618501837, guid: b6c2d0b3c2df1574c8898836c45cc3f9, type: 2}
+  bossFinishFirstModule: {fileID: 11400000, guid: b0a58aae7e2ab6c418ad2a725308a675, type: 2}

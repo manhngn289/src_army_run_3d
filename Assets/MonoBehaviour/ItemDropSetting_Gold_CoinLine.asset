@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: afeb175adbc34499e0c6abe49e929d08, type: 3}
+  m_Name: ItemDropSetting_Gold_CoinLine
+  m_EditorClassIdentifier:
+  isJumpWhenSpawn: 0
+  autoCheckPlayer: 1
+  radiusJump: 0
+  jumpPower: 0
+  minRadiusJump: 0
+  jumpDuration: 0
+  speedMoveTarget: 20
+  maxSpeedRotate: 0
+  jumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.63933307
+      outSlope: 0.63933307
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.490254
+    - serializedVersion: 3
+      time: 0.56969917
+      value: 0.87647104
+      inSlope: 3.2059202
+      outSlope: 3.2059202
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.07167732
+      outWeight: 0.13078962
+    - serializedVersion: 3
+      time: 0.76883143
+      value: 0.9029031
+      inSlope: -0.9544665
+      outSlope: -0.9544665
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20019455
+      outWeight: 0.45448035
+    - serializedVersion: 3
+      time: 0.8389892
+      value: 0.9651285
+      inSlope: 2.4457483
+      outSlope: 2.4457483
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.55150104
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9522214
+      value: 0.9404439
+      inSlope: 0.26391068
+      outSlope: 0.26391068
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.20122531
+      outWeight: 0.584087
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 2
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  takeFX: {fileID: 198071984787436149, guid: c7b3b09ff2cc98143b3a9c5f338bf7fb, type: 2}

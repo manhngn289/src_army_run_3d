@@ -1,0 +1,1567 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132b5d8bde72e218d1095f4db20de19e, type: 3}
+  m_Name: SerializableSet
+  m_EditorClassIdentifier:
+  TalentUpgradeDatas:
+  - level: 0
+    attackValue: 5
+    maxHP: 16
+    damage: 6
+    critRate: 0.005
+    critDmg: 0.05
+    energyShield: 0.08
+    hpRecovery: 5
+    headShot: 0.03
+  - level: 1
+    attackValue: 11
+    maxHP: 33
+    damage: 13
+    critRate: 0.01
+    critDmg: 0.1
+    energyShield: 0.12
+    hpRecovery: 6
+    headShot: 0.045
+  - level: 2
+    attackValue: 16
+    maxHP: 49
+    damage: 19
+    critRate: 0.015
+    critDmg: 0.15
+    energyShield: 0.16
+    hpRecovery: 7
+    headShot: 0.06
+  - level: 3
+    attackValue: 22
+    maxHP: 66
+    damage: 26
+    critRate: 0.02
+    critDmg: 0.2
+    energyShield: 0.2
+    hpRecovery: 8
+    headShot: 0.075
+  - level: 4
+    attackValue: 33
+    maxHP: 98
+    damage: 40
+    critRate: 0.025
+    critDmg: 0.25
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 5
+    attackValue: 44
+    maxHP: 131
+    damage: 53
+    critRate: 0.03
+    critDmg: 0.3
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 6
+    attackValue: 65
+    maxHP: 196
+    damage: 78
+    critRate: 0.035
+    critDmg: 0.35
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 7
+    attackValue: 87
+    maxHP: 262
+    damage: 104
+    critRate: 0.04
+    critDmg: 0.4
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 8
+    attackValue: 131
+    maxHP: 393
+    damage: 157
+    critRate: 0.045
+    critDmg: 0.45
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 9
+    attackValue: 175
+    maxHP: 524
+    damage: 210
+    critRate: 0.05
+    critDmg: 0.5
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 10
+    attackValue: 262
+    maxHP: 786
+    damage: 314
+    critRate: 0.055
+    critDmg: 0.55
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 11
+    attackValue: 349
+    maxHP: 1048
+    damage: 419
+    critRate: 0.06
+    critDmg: 0.6
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 12
+    attackValue: 410
+    maxHP: 1231
+    damage: 492
+    critRate: 0.065
+    critDmg: 0.65
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 13
+    attackValue: 471
+    maxHP: 1415
+    damage: 565
+    critRate: 0.07
+    critDmg: 0.7
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 14
+    attackValue: 553
+    maxHP: 1662
+    damage: 664
+    critRate: 0.075
+    critDmg: 0.75
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 15
+    attackValue: 636
+    maxHP: 1910
+    damage: 763
+    critRate: 0.08
+    critDmg: 0.8
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 16
+    attackValue: 747
+    maxHP: 2244
+    damage: 896
+    critRate: 0.085
+    critDmg: 0.85
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 17
+    attackValue: 859
+    maxHP: 2578
+    damage: 1030
+    critRate: 0.09
+    critDmg: 0.9
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 18
+    attackValue: 1008
+    maxHP: 3029
+    damage: 1210
+    critRate: 0.095
+    critDmg: 0.95
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  - level: 19
+    attackValue: 1159
+    maxHP: 3481
+    damage: 1391
+    critRate: 0.1
+    critDmg: 1
+    energyShield: 0.24
+    hpRecovery: 9
+    headShot: 0.09
+  WinLoseRewardDatas:
+  - level: 0
+    winCoinReward: 160
+    loseCoinReward: 80
+    elixirReward: 80
+    elixirRewardLose: 40
+    coinPerLevel: 1
+  - level: 1
+    winCoinReward: 200
+    loseCoinReward: 100
+    elixirReward: 100
+    elixirRewardLose: 50
+    coinPerLevel: 1
+  - level: 2
+    winCoinReward: 240
+    loseCoinReward: 120
+    elixirReward: 120
+    elixirRewardLose: 60
+    coinPerLevel: 1
+  - level: 3
+    winCoinReward: 280
+    loseCoinReward: 140
+    elixirReward: 140
+    elixirRewardLose: 70
+    coinPerLevel: 1
+  - level: 4
+    winCoinReward: 320
+    loseCoinReward: 160
+    elixirReward: 145
+    elixirRewardLose: 73
+    coinPerLevel: 1
+  - level: 5
+    winCoinReward: 360
+    loseCoinReward: 180
+    elixirReward: 145
+    elixirRewardLose: 73
+    coinPerLevel: 1
+  - level: 6
+    winCoinReward: 400
+    loseCoinReward: 200
+    elixirReward: 145
+    elixirRewardLose: 73
+    coinPerLevel: 1
+  - level: 7
+    winCoinReward: 440
+    loseCoinReward: 220
+    elixirReward: 145
+    elixirRewardLose: 73
+    coinPerLevel: 1
+  - level: 8
+    winCoinReward: 480
+    loseCoinReward: 240
+    elixirReward: 150
+    elixirRewardLose: 75
+    coinPerLevel: 3
+  - level: 9
+    winCoinReward: 600
+    loseCoinReward: 300
+    elixirReward: 150
+    elixirRewardLose: 75
+    coinPerLevel: 3
+  - level: 10
+    winCoinReward: 720
+    loseCoinReward: 360
+    elixirReward: 150
+    elixirRewardLose: 75
+    coinPerLevel: 3
+  - level: 11
+    winCoinReward: 840
+    loseCoinReward: 420
+    elixirReward: 150
+    elixirRewardLose: 75
+    coinPerLevel: 3
+  - level: 12
+    winCoinReward: 960
+    loseCoinReward: 480
+    elixirReward: 155
+    elixirRewardLose: 78
+    coinPerLevel: 3
+  - level: 13
+    winCoinReward: 1080
+    loseCoinReward: 540
+    elixirReward: 155
+    elixirRewardLose: 78
+    coinPerLevel: 3
+  - level: 14
+    winCoinReward: 1200
+    loseCoinReward: 600
+    elixirReward: 155
+    elixirRewardLose: 78
+    coinPerLevel: 3
+  - level: 15
+    winCoinReward: 1320
+    loseCoinReward: 660
+    elixirReward: 155
+    elixirRewardLose: 78
+    coinPerLevel: 3
+  - level: 16
+    winCoinReward: 1440
+    loseCoinReward: 720
+    elixirReward: 160
+    elixirRewardLose: 80
+    coinPerLevel: 9
+  - level: 17
+    winCoinReward: 1800
+    loseCoinReward: 900
+    elixirReward: 160
+    elixirRewardLose: 80
+    coinPerLevel: 9
+  - level: 18
+    winCoinReward: 2160
+    loseCoinReward: 1080
+    elixirReward: 160
+    elixirRewardLose: 80
+    coinPerLevel: 9
+  - level: 19
+    winCoinReward: 2520
+    loseCoinReward: 1260
+    elixirReward: 160
+    elixirRewardLose: 80
+    coinPerLevel: 9
+  - level: 20
+    winCoinReward: 2880
+    loseCoinReward: 1440
+    elixirReward: 165
+    elixirRewardLose: 83
+    coinPerLevel: 9
+  - level: 21
+    winCoinReward: 3240
+    loseCoinReward: 1620
+    elixirReward: 165
+    elixirRewardLose: 83
+    coinPerLevel: 9
+  - level: 22
+    winCoinReward: 3600
+    loseCoinReward: 1800
+    elixirReward: 165
+    elixirRewardLose: 83
+    coinPerLevel: 9
+  - level: 23
+    winCoinReward: 3960
+    loseCoinReward: 1980
+    elixirReward: 165
+    elixirRewardLose: 83
+    coinPerLevel: 9
+  - level: 24
+    winCoinReward: 4320
+    loseCoinReward: 2160
+    elixirReward: 170
+    elixirRewardLose: 85
+    coinPerLevel: 27
+  - level: 25
+    winCoinReward: 5400
+    loseCoinReward: 2700
+    elixirReward: 170
+    elixirRewardLose: 85
+    coinPerLevel: 27
+  - level: 26
+    winCoinReward: 6480
+    loseCoinReward: 3240
+    elixirReward: 170
+    elixirRewardLose: 85
+    coinPerLevel: 27
+  - level: 27
+    winCoinReward: 7560
+    loseCoinReward: 3780
+    elixirReward: 170
+    elixirRewardLose: 85
+    coinPerLevel: 27
+  - level: 28
+    winCoinReward: 8640
+    loseCoinReward: 4320
+    elixirReward: 175
+    elixirRewardLose: 88
+    coinPerLevel: 27
+  - level: 29
+    winCoinReward: 9720
+    loseCoinReward: 4860
+    elixirReward: 175
+    elixirRewardLose: 88
+    coinPerLevel: 27
+  - level: 30
+    winCoinReward: 10800
+    loseCoinReward: 5400
+    elixirReward: 175
+    elixirRewardLose: 88
+    coinPerLevel: 27
+  - level: 31
+    winCoinReward: 11880
+    loseCoinReward: 5940
+    elixirReward: 175
+    elixirRewardLose: 88
+    coinPerLevel: 27
+  - level: 32
+    winCoinReward: 12960
+    loseCoinReward: 6480
+    elixirReward: 180
+    elixirRewardLose: 90
+    coinPerLevel: 81
+  - level: 33
+    winCoinReward: 16200
+    loseCoinReward: 8100
+    elixirReward: 180
+    elixirRewardLose: 90
+    coinPerLevel: 81
+  - level: 34
+    winCoinReward: 19440
+    loseCoinReward: 9720
+    elixirReward: 180
+    elixirRewardLose: 90
+    coinPerLevel: 81
+  - level: 35
+    winCoinReward: 22680
+    loseCoinReward: 11340
+    elixirReward: 180
+    elixirRewardLose: 90
+    coinPerLevel: 81
+  - level: 36
+    winCoinReward: 25920
+    loseCoinReward: 12960
+    elixirReward: 185
+    elixirRewardLose: 93
+    coinPerLevel: 81
+  - level: 37
+    winCoinReward: 29160
+    loseCoinReward: 14580
+    elixirReward: 185
+    elixirRewardLose: 93
+    coinPerLevel: 81
+  - level: 38
+    winCoinReward: 32400
+    loseCoinReward: 16200
+    elixirReward: 185
+    elixirRewardLose: 93
+    coinPerLevel: 81
+  - level: 39
+    winCoinReward: 35640
+    loseCoinReward: 17820
+    elixirReward: 185
+    elixirRewardLose: 93
+    coinPerLevel: 81
+  - level: 40
+    winCoinReward: 38880
+    loseCoinReward: 19440
+    elixirReward: 190
+    elixirRewardLose: 95
+    coinPerLevel: 243
+  - level: 41
+    winCoinReward: 48600
+    loseCoinReward: 24300
+    elixirReward: 190
+    elixirRewardLose: 95
+    coinPerLevel: 243
+  - level: 42
+    winCoinReward: 58320
+    loseCoinReward: 29160
+    elixirReward: 190
+    elixirRewardLose: 95
+    coinPerLevel: 243
+  - level: 43
+    winCoinReward: 68040
+    loseCoinReward: 34020
+    elixirReward: 190
+    elixirRewardLose: 95
+    coinPerLevel: 243
+  - level: 44
+    winCoinReward: 77760
+    loseCoinReward: 38880
+    elixirReward: 195
+    elixirRewardLose: 98
+    coinPerLevel: 243
+  - level: 45
+    winCoinReward: 87480
+    loseCoinReward: 43740
+    elixirReward: 195
+    elixirRewardLose: 98
+    coinPerLevel: 243
+  - level: 46
+    winCoinReward: 97200
+    loseCoinReward: 48600
+    elixirReward: 195
+    elixirRewardLose: 98
+    coinPerLevel: 243
+  - level: 47
+    winCoinReward: 106920
+    loseCoinReward: 53460
+    elixirReward: 195
+    elixirRewardLose: 98
+    coinPerLevel: 243
+  - level: 48
+    winCoinReward: 116640
+    loseCoinReward: 58320
+    elixirReward: 200
+    elixirRewardLose: 100
+    coinPerLevel: 729
+  - level: 49
+    winCoinReward: 145800
+    loseCoinReward: 72900
+    elixirReward: 200
+    elixirRewardLose: 100
+    coinPerLevel: 729
+  - level: 50
+    winCoinReward: 174960
+    loseCoinReward: 87480
+    elixirReward: 200
+    elixirRewardLose: 100
+    coinPerLevel: 729
+  - level: 51
+    winCoinReward: 204120
+    loseCoinReward: 102060
+    elixirReward: 200
+    elixirRewardLose: 100
+    coinPerLevel: 729
+  - level: 52
+    winCoinReward: 233280
+    loseCoinReward: 116640
+    elixirReward: 205
+    elixirRewardLose: 103
+    coinPerLevel: 729
+  - level: 53
+    winCoinReward: 262440
+    loseCoinReward: 131220
+    elixirReward: 205
+    elixirRewardLose: 103
+    coinPerLevel: 729
+  - level: 54
+    winCoinReward: 291600
+    loseCoinReward: 145800
+    elixirReward: 205
+    elixirRewardLose: 103
+    coinPerLevel: 729
+  - level: 55
+    winCoinReward: 320760
+    loseCoinReward: 160380
+    elixirReward: 205
+    elixirRewardLose: 103
+    coinPerLevel: 729
+  TalentInfoDatas:
+  - talentType: 0
+    description: Increase ATK
+    maxLevel: 20
+  - talentType: 1
+    description: Increase Max HP
+    maxLevel: 20
+  - talentType: 2
+    description: Bonus Damage
+    maxLevel: 20
+  - talentType: 3
+    description: Increase Critial Rate
+    maxLevel: 20
+  - talentType: 4
+    description: Increase Critial Damage
+    maxLevel: 20
+  - talentType: 5
+    description: Damage Reduction
+    maxLevel: 5
+  - talentType: 6
+    description: HP Recovery Over Time
+    maxLevel: 5
+  - talentType: 7
+    description: Increase Headshot Chance
+    maxLevel: 5
+  TroopStatDatas:
+  - level: 0
+    attack: 80
+    maxHP: 240
+    rewards: 20
+    upgradeAttackPrice: 100
+    upgradeMaxHpPrice: 60
+    upgradeRewardsPrice: 40
+  - level: 1
+    attack: 84
+    maxHP: 252
+    rewards: 22
+    upgradeAttackPrice: 110
+    upgradeMaxHpPrice: 66
+    upgradeRewardsPrice: 44
+  - level: 2
+    attack: 88
+    maxHP: 264
+    rewards: 24
+    upgradeAttackPrice: 120
+    upgradeMaxHpPrice: 72
+    upgradeRewardsPrice: 48
+  - level: 3
+    attack: 92
+    maxHP: 276
+    rewards: 26
+    upgradeAttackPrice: 130
+    upgradeMaxHpPrice: 78
+    upgradeRewardsPrice: 52
+  - level: 4
+    attack: 96
+    maxHP: 288
+    rewards: 28
+    upgradeAttackPrice: 140
+    upgradeMaxHpPrice: 84
+    upgradeRewardsPrice: 56
+  - level: 5
+    attack: 100
+    maxHP: 300
+    rewards: 30
+    upgradeAttackPrice: 150
+    upgradeMaxHpPrice: 90
+    upgradeRewardsPrice: 60
+  - level: 6
+    attack: 104
+    maxHP: 312
+    rewards: 32
+    upgradeAttackPrice: 160
+    upgradeMaxHpPrice: 96
+    upgradeRewardsPrice: 64
+  - level: 7
+    attack: 108
+    maxHP: 324
+    rewards: 34
+    upgradeAttackPrice: 170
+    upgradeMaxHpPrice: 102
+    upgradeRewardsPrice: 68
+  - level: 8
+    attack: 112
+    maxHP: 336
+    rewards: 36
+    upgradeAttackPrice: 180
+    upgradeMaxHpPrice: 108
+    upgradeRewardsPrice: 72
+  - level: 9
+    attack: 116
+    maxHP: 348
+    rewards: 38
+    upgradeAttackPrice: 190
+    upgradeMaxHpPrice: 114
+    upgradeRewardsPrice: 76
+  - level: 10
+    attack: 120
+    maxHP: 360
+    rewards: 40
+    upgradeAttackPrice: 200
+    upgradeMaxHpPrice: 120
+    upgradeRewardsPrice: 80
+  - level: 11
+    attack: 124
+    maxHP: 372
+    rewards: 42
+    upgradeAttackPrice: 210
+    upgradeMaxHpPrice: 126
+    upgradeRewardsPrice: 84
+  - level: 12
+    attack: 128
+    maxHP: 384
+    rewards: 44
+    upgradeAttackPrice: 220
+    upgradeMaxHpPrice: 132
+    upgradeRewardsPrice: 88
+  - level: 13
+    attack: 132
+    maxHP: 396
+    rewards: 46
+    upgradeAttackPrice: 230
+    upgradeMaxHpPrice: 138
+    upgradeRewardsPrice: 92
+  - level: 14
+    attack: 136
+    maxHP: 408
+    rewards: 48
+    upgradeAttackPrice: 240
+    upgradeMaxHpPrice: 144
+    upgradeRewardsPrice: 96
+  - level: 15
+    attack: 140
+    maxHP: 420
+    rewards: 50
+    upgradeAttackPrice: 250
+    upgradeMaxHpPrice: 150
+    upgradeRewardsPrice: 100
+  - level: 16
+    attack: 144
+    maxHP: 432
+    rewards: 52
+    upgradeAttackPrice: 260
+    upgradeMaxHpPrice: 156
+    upgradeRewardsPrice: 104
+  - level: 17
+    attack: 148
+    maxHP: 444
+    rewards: 54
+    upgradeAttackPrice: 270
+    upgradeMaxHpPrice: 162
+    upgradeRewardsPrice: 108
+  - level: 18
+    attack: 152
+    maxHP: 456
+    rewards: 56
+    upgradeAttackPrice: 280
+    upgradeMaxHpPrice: 168
+    upgradeRewardsPrice: 112
+  - level: 19
+    attack: 156
+    maxHP: 468
+    rewards: 58
+    upgradeAttackPrice: 290
+    upgradeMaxHpPrice: 174
+    upgradeRewardsPrice: 116
+  - level: 20
+    attack: 160
+    maxHP: 480
+    rewards: 60
+    upgradeAttackPrice: 300
+    upgradeMaxHpPrice: 180
+    upgradeRewardsPrice: 120
+  - level: 21
+    attack: 168
+    maxHP: 504
+    rewards: 66
+    upgradeAttackPrice: 330
+    upgradeMaxHpPrice: 198
+    upgradeRewardsPrice: 132
+  - level: 22
+    attack: 176
+    maxHP: 528
+    rewards: 72
+    upgradeAttackPrice: 360
+    upgradeMaxHpPrice: 216
+    upgradeRewardsPrice: 144
+  - level: 23
+    attack: 184
+    maxHP: 552
+    rewards: 78
+    upgradeAttackPrice: 390
+    upgradeMaxHpPrice: 234
+    upgradeRewardsPrice: 156
+  - level: 24
+    attack: 192
+    maxHP: 576
+    rewards: 84
+    upgradeAttackPrice: 420
+    upgradeMaxHpPrice: 252
+    upgradeRewardsPrice: 168
+  - level: 25
+    attack: 200
+    maxHP: 600
+    rewards: 90
+    upgradeAttackPrice: 450
+    upgradeMaxHpPrice: 270
+    upgradeRewardsPrice: 180
+  - level: 26
+    attack: 208
+    maxHP: 624
+    rewards: 96
+    upgradeAttackPrice: 480
+    upgradeMaxHpPrice: 288
+    upgradeRewardsPrice: 192
+  - level: 27
+    attack: 216
+    maxHP: 648
+    rewards: 102
+    upgradeAttackPrice: 510
+    upgradeMaxHpPrice: 306
+    upgradeRewardsPrice: 204
+  - level: 28
+    attack: 224
+    maxHP: 672
+    rewards: 108
+    upgradeAttackPrice: 540
+    upgradeMaxHpPrice: 324
+    upgradeRewardsPrice: 216
+  - level: 29
+    attack: 232
+    maxHP: 696
+    rewards: 114
+    upgradeAttackPrice: 570
+    upgradeMaxHpPrice: 342
+    upgradeRewardsPrice: 228
+  - level: 30
+    attack: 240
+    maxHP: 720
+    rewards: 120
+    upgradeAttackPrice: 600
+    upgradeMaxHpPrice: 360
+    upgradeRewardsPrice: 240
+  - level: 31
+    attack: 248
+    maxHP: 744
+    rewards: 126
+    upgradeAttackPrice: 630
+    upgradeMaxHpPrice: 378
+    upgradeRewardsPrice: 252
+  - level: 32
+    attack: 256
+    maxHP: 768
+    rewards: 132
+    upgradeAttackPrice: 660
+    upgradeMaxHpPrice: 396
+    upgradeRewardsPrice: 264
+  - level: 33
+    attack: 264
+    maxHP: 792
+    rewards: 138
+    upgradeAttackPrice: 690
+    upgradeMaxHpPrice: 414
+    upgradeRewardsPrice: 276
+  - level: 34
+    attack: 272
+    maxHP: 816
+    rewards: 144
+    upgradeAttackPrice: 720
+    upgradeMaxHpPrice: 432
+    upgradeRewardsPrice: 288
+  - level: 35
+    attack: 280
+    maxHP: 840
+    rewards: 150
+    upgradeAttackPrice: 750
+    upgradeMaxHpPrice: 450
+    upgradeRewardsPrice: 300
+  - level: 36
+    attack: 288
+    maxHP: 864
+    rewards: 156
+    upgradeAttackPrice: 780
+    upgradeMaxHpPrice: 468
+    upgradeRewardsPrice: 312
+  - level: 37
+    attack: 296
+    maxHP: 888
+    rewards: 162
+    upgradeAttackPrice: 810
+    upgradeMaxHpPrice: 486
+    upgradeRewardsPrice: 324
+  - level: 38
+    attack: 304
+    maxHP: 912
+    rewards: 168
+    upgradeAttackPrice: 840
+    upgradeMaxHpPrice: 504
+    upgradeRewardsPrice: 336
+  - level: 39
+    attack: 312
+    maxHP: 936
+    rewards: 174
+    upgradeAttackPrice: 870
+    upgradeMaxHpPrice: 522
+    upgradeRewardsPrice: 348
+  - level: 40
+    attack: 320
+    maxHP: 960
+    rewards: 180
+    upgradeAttackPrice: 900
+    upgradeMaxHpPrice: 540
+    upgradeRewardsPrice: 360
+  - level: 41
+    attack: 336
+    maxHP: 1008
+    rewards: 198
+    upgradeAttackPrice: 990
+    upgradeMaxHpPrice: 594
+    upgradeRewardsPrice: 396
+  - level: 42
+    attack: 352
+    maxHP: 1056
+    rewards: 216
+    upgradeAttackPrice: 1080
+    upgradeMaxHpPrice: 648
+    upgradeRewardsPrice: 432
+  - level: 43
+    attack: 368
+    maxHP: 1104
+    rewards: 234
+    upgradeAttackPrice: 1170
+    upgradeMaxHpPrice: 702
+    upgradeRewardsPrice: 468
+  - level: 44
+    attack: 384
+    maxHP: 1152
+    rewards: 252
+    upgradeAttackPrice: 1260
+    upgradeMaxHpPrice: 756
+    upgradeRewardsPrice: 504
+  - level: 45
+    attack: 400
+    maxHP: 1200
+    rewards: 270
+    upgradeAttackPrice: 1350
+    upgradeMaxHpPrice: 810
+    upgradeRewardsPrice: 540
+  - level: 46
+    attack: 416
+    maxHP: 1248
+    rewards: 288
+    upgradeAttackPrice: 1440
+    upgradeMaxHpPrice: 864
+    upgradeRewardsPrice: 576
+  - level: 47
+    attack: 432
+    maxHP: 1296
+    rewards: 306
+    upgradeAttackPrice: 1530
+    upgradeMaxHpPrice: 918
+    upgradeRewardsPrice: 612
+  - level: 48
+    attack: 448
+    maxHP: 1344
+    rewards: 324
+    upgradeAttackPrice: 1620
+    upgradeMaxHpPrice: 972
+    upgradeRewardsPrice: 648
+  - level: 49
+    attack: 464
+    maxHP: 1392
+    rewards: 342
+    upgradeAttackPrice: 1710
+    upgradeMaxHpPrice: 1026
+    upgradeRewardsPrice: 684
+  - level: 50
+    attack: 480
+    maxHP: 1440
+    rewards: 360
+    upgradeAttackPrice: 1800
+    upgradeMaxHpPrice: 1080
+    upgradeRewardsPrice: 720
+  - level: 51
+    attack: 496
+    maxHP: 1488
+    rewards: 378
+    upgradeAttackPrice: 1890
+    upgradeMaxHpPrice: 1134
+    upgradeRewardsPrice: 756
+  - level: 52
+    attack: 512
+    maxHP: 1536
+    rewards: 396
+    upgradeAttackPrice: 1980
+    upgradeMaxHpPrice: 1188
+    upgradeRewardsPrice: 792
+  - level: 53
+    attack: 528
+    maxHP: 1584
+    rewards: 414
+    upgradeAttackPrice: 2070
+    upgradeMaxHpPrice: 1242
+    upgradeRewardsPrice: 828
+  - level: 54
+    attack: 544
+    maxHP: 1632
+    rewards: 432
+    upgradeAttackPrice: 2160
+    upgradeMaxHpPrice: 1296
+    upgradeRewardsPrice: 864
+  - level: 55
+    attack: 560
+    maxHP: 1680
+    rewards: 450
+    upgradeAttackPrice: 2250
+    upgradeMaxHpPrice: 1350
+    upgradeRewardsPrice: 900
+  - level: 56
+    attack: 576
+    maxHP: 1728
+    rewards: 468
+    upgradeAttackPrice: 2340
+    upgradeMaxHpPrice: 1404
+    upgradeRewardsPrice: 936
+  - level: 57
+    attack: 592
+    maxHP: 1776
+    rewards: 486
+    upgradeAttackPrice: 2430
+    upgradeMaxHpPrice: 1458
+    upgradeRewardsPrice: 972
+  - level: 58
+    attack: 608
+    maxHP: 1824
+    rewards: 504
+    upgradeAttackPrice: 2520
+    upgradeMaxHpPrice: 1512
+    upgradeRewardsPrice: 1008
+  - level: 59
+    attack: 624
+    maxHP: 1872
+    rewards: 522
+    upgradeAttackPrice: 2610
+    upgradeMaxHpPrice: 1566
+    upgradeRewardsPrice: 1044
+  - level: 60
+    attack: 640
+    maxHP: 1920
+    rewards: 540
+    upgradeAttackPrice: 2700
+    upgradeMaxHpPrice: 1620
+    upgradeRewardsPrice: 1080
+  - level: 61
+    attack: 672
+    maxHP: 2016
+    rewards: 594
+    upgradeAttackPrice: 2970
+    upgradeMaxHpPrice: 1782
+    upgradeRewardsPrice: 1188
+  - level: 62
+    attack: 704
+    maxHP: 2112
+    rewards: 648
+    upgradeAttackPrice: 3240
+    upgradeMaxHpPrice: 1944
+    upgradeRewardsPrice: 1296
+  - level: 63
+    attack: 736
+    maxHP: 2208
+    rewards: 702
+    upgradeAttackPrice: 3510
+    upgradeMaxHpPrice: 2106
+    upgradeRewardsPrice: 1404
+  - level: 64
+    attack: 768
+    maxHP: 2304
+    rewards: 756
+    upgradeAttackPrice: 3780
+    upgradeMaxHpPrice: 2268
+    upgradeRewardsPrice: 1512
+  - level: 65
+    attack: 800
+    maxHP: 2400
+    rewards: 810
+    upgradeAttackPrice: 4050
+    upgradeMaxHpPrice: 2430
+    upgradeRewardsPrice: 1620
+  - level: 66
+    attack: 832
+    maxHP: 2496
+    rewards: 864
+    upgradeAttackPrice: 4320
+    upgradeMaxHpPrice: 2592
+    upgradeRewardsPrice: 1728
+  - level: 67
+    attack: 864
+    maxHP: 2592
+    rewards: 918
+    upgradeAttackPrice: 4590
+    upgradeMaxHpPrice: 2754
+    upgradeRewardsPrice: 1836
+  - level: 68
+    attack: 896
+    maxHP: 2688
+    rewards: 972
+    upgradeAttackPrice: 4860
+    upgradeMaxHpPrice: 2916
+    upgradeRewardsPrice: 1944
+  - level: 69
+    attack: 928
+    maxHP: 2784
+    rewards: 1026
+    upgradeAttackPrice: 5130
+    upgradeMaxHpPrice: 3078
+    upgradeRewardsPrice: 2052
+  - level: 70
+    attack: 960
+    maxHP: 2880
+    rewards: 1080
+    upgradeAttackPrice: 5400
+    upgradeMaxHpPrice: 3240
+    upgradeRewardsPrice: 2160
+  - level: 71
+    attack: 992
+    maxHP: 2976
+    rewards: 1134
+    upgradeAttackPrice: 5670
+    upgradeMaxHpPrice: 3402
+    upgradeRewardsPrice: 2268
+  - level: 72
+    attack: 1024
+    maxHP: 3072
+    rewards: 1188
+    upgradeAttackPrice: 5940
+    upgradeMaxHpPrice: 3564
+    upgradeRewardsPrice: 2376
+  - level: 73
+    attack: 1056
+    maxHP: 3168
+    rewards: 1242
+    upgradeAttackPrice: 6210
+    upgradeMaxHpPrice: 3726
+    upgradeRewardsPrice: 2484
+  - level: 74
+    attack: 1088
+    maxHP: 3264
+    rewards: 1296
+    upgradeAttackPrice: 6480
+    upgradeMaxHpPrice: 3888
+    upgradeRewardsPrice: 2592
+  - level: 75
+    attack: 1120
+    maxHP: 3360
+    rewards: 1350
+    upgradeAttackPrice: 6750
+    upgradeMaxHpPrice: 4050
+    upgradeRewardsPrice: 2700
+  - level: 76
+    attack: 1152
+    maxHP: 3456
+    rewards: 1404
+    upgradeAttackPrice: 7020
+    upgradeMaxHpPrice: 4212
+    upgradeRewardsPrice: 2808
+  - level: 77
+    attack: 1184
+    maxHP: 3552
+    rewards: 1458
+    upgradeAttackPrice: 7290
+    upgradeMaxHpPrice: 4374
+    upgradeRewardsPrice: 2916
+  - level: 78
+    attack: 1216
+    maxHP: 3648
+    rewards: 1512
+    upgradeAttackPrice: 7560
+    upgradeMaxHpPrice: 4536
+    upgradeRewardsPrice: 3024
+  - level: 79
+    attack: 1248
+    maxHP: 3744
+    rewards: 1566
+    upgradeAttackPrice: 7830
+    upgradeMaxHpPrice: 4698
+    upgradeRewardsPrice: 3132
+  - level: 80
+    attack: 1280
+    maxHP: 3840
+    rewards: 1620
+    upgradeAttackPrice: 8100
+    upgradeMaxHpPrice: 4860
+    upgradeRewardsPrice: 3240
+  - level: 81
+    attack: 1344
+    maxHP: 4032
+    rewards: 1782
+    upgradeAttackPrice: 8910
+    upgradeMaxHpPrice: 5346
+    upgradeRewardsPrice: 3564
+  - level: 82
+    attack: 1408
+    maxHP: 4224
+    rewards: 1944
+    upgradeAttackPrice: 9720
+    upgradeMaxHpPrice: 5832
+    upgradeRewardsPrice: 3888
+  - level: 83
+    attack: 1472
+    maxHP: 4416
+    rewards: 2106
+    upgradeAttackPrice: 10530
+    upgradeMaxHpPrice: 6318
+    upgradeRewardsPrice: 4212
+  - level: 84
+    attack: 1536
+    maxHP: 4608
+    rewards: 2268
+    upgradeAttackPrice: 11340
+    upgradeMaxHpPrice: 6804
+    upgradeRewardsPrice: 4536
+  - level: 85
+    attack: 1600
+    maxHP: 4800
+    rewards: 2430
+    upgradeAttackPrice: 12150
+    upgradeMaxHpPrice: 7290
+    upgradeRewardsPrice: 4860
+  - level: 86
+    attack: 1664
+    maxHP: 4992
+    rewards: 2592
+    upgradeAttackPrice: 12960
+    upgradeMaxHpPrice: 7776
+    upgradeRewardsPrice: 5184
+  - level: 87
+    attack: 1728
+    maxHP: 5184
+    rewards: 2754
+    upgradeAttackPrice: 13770
+    upgradeMaxHpPrice: 8262
+    upgradeRewardsPrice: 5508
+  - level: 88
+    attack: 1792
+    maxHP: 5376
+    rewards: 2916
+    upgradeAttackPrice: 14580
+    upgradeMaxHpPrice: 8748
+    upgradeRewardsPrice: 5832
+  - level: 89
+    attack: 1856
+    maxHP: 5568
+    rewards: 3078
+    upgradeAttackPrice: 15390
+    upgradeMaxHpPrice: 9234
+    upgradeRewardsPrice: 6156
+  - level: 90
+    attack: 1920
+    maxHP: 5760
+    rewards: 3240
+    upgradeAttackPrice: 16200
+    upgradeMaxHpPrice: 9720
+    upgradeRewardsPrice: 6480
+  - level: 91
+    attack: 1984
+    maxHP: 5952
+    rewards: 3402
+    upgradeAttackPrice: 17010
+    upgradeMaxHpPrice: 10206
+    upgradeRewardsPrice: 6804
+  - level: 92
+    attack: 2048
+    maxHP: 6144
+    rewards: 3564
+    upgradeAttackPrice: 17820
+    upgradeMaxHpPrice: 10692
+    upgradeRewardsPrice: 7128
+  - level: 93
+    attack: 2112
+    maxHP: 6336
+    rewards: 3726
+    upgradeAttackPrice: 18630
+    upgradeMaxHpPrice: 11178
+    upgradeRewardsPrice: 7452
+  - level: 94
+    attack: 2176
+    maxHP: 6528
+    rewards: 3888
+    upgradeAttackPrice: 19440
+    upgradeMaxHpPrice: 11664
+    upgradeRewardsPrice: 7776
+  - level: 95
+    attack: 2240
+    maxHP: 6720
+    rewards: 4050
+    upgradeAttackPrice: 20250
+    upgradeMaxHpPrice: 12150
+    upgradeRewardsPrice: 8100
+  - level: 96
+    attack: 2304
+    maxHP: 6912
+    rewards: 4212
+    upgradeAttackPrice: 21060
+    upgradeMaxHpPrice: 12636
+    upgradeRewardsPrice: 8424
+  - level: 97
+    attack: 2368
+    maxHP: 7104
+    rewards: 4374
+    upgradeAttackPrice: 21870
+    upgradeMaxHpPrice: 13122
+    upgradeRewardsPrice: 8748
+  - level: 98
+    attack: 2432
+    maxHP: 7296
+    rewards: 4536
+    upgradeAttackPrice: 22680
+    upgradeMaxHpPrice: 13608
+    upgradeRewardsPrice: 9072
+  - level: 99
+    attack: 2496
+    maxHP: 7488
+    rewards: 4698
+    upgradeAttackPrice: 23490
+    upgradeMaxHpPrice: 14094
+    upgradeRewardsPrice: 9396
+  - level: 100
+    attack: 2560
+    maxHP: 7680
+    rewards: 4860
+    upgradeAttackPrice: 24300
+    upgradeMaxHpPrice: 14580
+    upgradeRewardsPrice: 9720
+  - level: 101
+    attack: 2688
+    maxHP: 8064
+    rewards: 5346
+    upgradeAttackPrice: 26730
+    upgradeMaxHpPrice: 16038
+    upgradeRewardsPrice: 10692
+  - level: 102
+    attack: 2816
+    maxHP: 8448
+    rewards: 5832
+    upgradeAttackPrice: 29160
+    upgradeMaxHpPrice: 17496
+    upgradeRewardsPrice: 11664
+  - level: 103
+    attack: 2944
+    maxHP: 8832
+    rewards: 6318
+    upgradeAttackPrice: 31590
+    upgradeMaxHpPrice: 18954
+    upgradeRewardsPrice: 12636
+  - level: 104
+    attack: 3072
+    maxHP: 9216
+    rewards: 6804
+    upgradeAttackPrice: 34020
+    upgradeMaxHpPrice: 20412
+    upgradeRewardsPrice: 13608
+  - level: 105
+    attack: 3200
+    maxHP: 9600
+    rewards: 7290
+    upgradeAttackPrice: 36450
+    upgradeMaxHpPrice: 21870
+    upgradeRewardsPrice: 14580
+  - level: 106
+    attack: 3328
+    maxHP: 9984
+    rewards: 7776
+    upgradeAttackPrice: 38880
+    upgradeMaxHpPrice: 23328
+    upgradeRewardsPrice: 15552
+  - level: 107
+    attack: 3456
+    maxHP: 10368
+    rewards: 8262
+    upgradeAttackPrice: 41310
+    upgradeMaxHpPrice: 24786
+    upgradeRewardsPrice: 16524
+  - level: 108
+    attack: 3584
+    maxHP: 10752
+    rewards: 8748
+    upgradeAttackPrice: 43740
+    upgradeMaxHpPrice: 26244
+    upgradeRewardsPrice: 17496
+  - level: 109
+    attack: 3712
+    maxHP: 11136
+    rewards: 9234
+    upgradeAttackPrice: 46170
+    upgradeMaxHpPrice: 27702
+    upgradeRewardsPrice: 18468
+  - level: 110
+    attack: 3840
+    maxHP: 11520
+    rewards: 9720
+    upgradeAttackPrice: 48600
+    upgradeMaxHpPrice: 29160
+    upgradeRewardsPrice: 19440
+  - level: 111
+    attack: 3968
+    maxHP: 11904
+    rewards: 10206
+    upgradeAttackPrice: 51030
+    upgradeMaxHpPrice: 30618
+    upgradeRewardsPrice: 20412
+  - level: 112
+    attack: 4096
+    maxHP: 12288
+    rewards: 10692
+    upgradeAttackPrice: 53460
+    upgradeMaxHpPrice: 32076
+    upgradeRewardsPrice: 21384
+  - level: 113
+    attack: 4224
+    maxHP: 12672
+    rewards: 11178
+    upgradeAttackPrice: 55890
+    upgradeMaxHpPrice: 33534
+    upgradeRewardsPrice: 22356
+  - level: 114
+    attack: 4352
+    maxHP: 13056
+    rewards: 11664
+    upgradeAttackPrice: 58320
+    upgradeMaxHpPrice: 34992
+    upgradeRewardsPrice: 23328
+  - level: 115
+    attack: 4480
+    maxHP: 13440
+    rewards: 12150
+    upgradeAttackPrice: 60750
+    upgradeMaxHpPrice: 36450
+    upgradeRewardsPrice: 24300
+  - level: 116
+    attack: 4608
+    maxHP: 13824
+    rewards: 12636
+    upgradeAttackPrice: 63180
+    upgradeMaxHpPrice: 37908
+    upgradeRewardsPrice: 25272
+  - level: 117
+    attack: 4736
+    maxHP: 14208
+    rewards: 13122
+    upgradeAttackPrice: 65610
+    upgradeMaxHpPrice: 39366
+    upgradeRewardsPrice: 26244
+  - level: 118
+    attack: 4864
+    maxHP: 14592
+    rewards: 13608
+    upgradeAttackPrice: 68040
+    upgradeMaxHpPrice: 40824
+    upgradeRewardsPrice: 27216
+  - level: 119
+    attack: 4992
+    maxHP: 14976
+    rewards: 14094
+    upgradeAttackPrice: 70470
+    upgradeMaxHpPrice: 42282
+    upgradeRewardsPrice: 28188
+  EnemyStatMultiplyByLevels:
+  - level: 0
+    atkMulti: 0.1
+    hpMulti: 0.89
+  - level: 1
+    atkMulti: 0.54
+    hpMulti: 1.07
+  - level: 2
+    atkMulti: 0.62
+    hpMulti: 1.4
+  - level: 3
+    atkMulti: 0.89
+    hpMulti: 1.61
+  - level: 4
+    atkMulti: 0.95
+    hpMulti: 1.9
+  - level: 5
+    atkMulti: 1.2
+    hpMulti: 2.01
+  - level: 6
+    atkMulti: 1.27
+    hpMulti: 2.12
+  - level: 7
+    atkMulti: 1.56
+    hpMulti: 2.23
+  - level: 8
+    atkMulti: 1.51
+    hpMulti: 2.16
+  - level: 9
+    atkMulti: 2.07
+    hpMulti: 2.59
+  - level: 10
+    atkMulti: 2.41
+    hpMulti: 3.02
+  - level: 11
+    atkMulti: 3.1
+    hpMulti: 3.45
+  - level: 12
+    atkMulti: 3.3
+    hpMulti: 3.66
+  - level: 13
+    atkMulti: 3.88
+    hpMulti: 3.88
+  - level: 14
+    atkMulti: 4.09
+    hpMulti: 4.09
+  - level: 15
+    atkMulti: 4.31
+    hpMulti: 4.31
+  - level: 16
+    atkMulti: 4.24
+    hpMulti: 4.24
+  - level: 17
+    atkMulti: 5.09
+    hpMulti: 5.09
+  - level: 18
+    atkMulti: 5.94
+    hpMulti: 5.94
+  - level: 19
+    atkMulti: 6.78
+    hpMulti: 6.78
+  - level: 20
+    atkMulti: 7.21
+    hpMulti: 7.21
+  - level: 21
+    atkMulti: 7.63
+    hpMulti: 7.63
+  - level: 22
+    atkMulti: 8.86
+    hpMulti: 8.86
+  - level: 23
+    atkMulti: 10.18
+    hpMulti: 10.18
+  - level: 24
+    atkMulti: 10.03
+    hpMulti: 10.03
+  - level: 25
+    atkMulti: 12.04
+    hpMulti: 12.04
+  - level: 26
+    atkMulti: 14.04
+    hpMulti: 14.04
+  - level: 27
+    atkMulti: 16.05
+    hpMulti: 16.05
+  - level: 28
+    atkMulti: 17.05
+    hpMulti: 17.05
+  - level: 29
+    atkMulti: 18.06
+    hpMulti: 18.06
+  - level: 30
+    atkMulti: 19.06
+    hpMulti: 19.06
+  - level: 31
+    atkMulti: 20.06
+    hpMulti: 20.06
+  - level: 32
+    atkMulti: 19.84
+    hpMulti: 19.84
+  - level: 33
+    atkMulti: 23.81
+    hpMulti: 23.81
+  - level: 34
+    atkMulti: 27.78
+    hpMulti: 27.78
+  - level: 35
+    atkMulti: 31.75
+    hpMulti: 31.75
+  - level: 36
+    atkMulti: 33.73
+    hpMulti: 33.73
+  - level: 37
+    atkMulti: 35.72
+    hpMulti: 35.72
+  - level: 38
+    atkMulti: 37.7
+    hpMulti: 37.7
+  - level: 39
+    atkMulti: 39.68
+    hpMulti: 39.68
+  - level: 40
+    atkMulti: 39.35
+    hpMulti: 39.35
+  - level: 41
+    atkMulti: 47.22
+    hpMulti: 47.22
+  - level: 42
+    atkMulti: 55.09
+    hpMulti: 55.09
+  - level: 43
+    atkMulti: 62.96
+    hpMulti: 62.96
+  - level: 44
+    atkMulti: 66.89
+    hpMulti: 66.89
+  - level: 45
+    atkMulti: 70.83
+    hpMulti: 70.83
+  - level: 46
+    atkMulti: 74.76
+    hpMulti: 74.76
+  - level: 47
+    atkMulti: 78.7
+    hpMulti: 78.7
+  - level: 48
+    atkMulti: 77.75
+    hpMulti: 77.75
+  - level: 49
+    atkMulti: 93.3
+    hpMulti: 93.3
+  - level: 50
+    atkMulti: 108.85
+    hpMulti: 108.85
+  - level: 51
+    atkMulti: 124.4
+    hpMulti: 124.4
+  - level: 52
+    atkMulti: 132.17
+    hpMulti: 132.17
+  - level: 53
+    atkMulti: 139.95
+    hpMulti: 139.95
+  - level: 54
+    atkMulti: 147.72
+    hpMulti: 147.72
+  - level: 55
+    atkMulti: 155.5
+    hpMulti: 155.5

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 110b7f5a296ed8f4567e7730674046dc, type: 3}
+  m_Name: WeaponFireBulletDataSO_ShotGun
+  m_EditorClassIdentifier:
+  bulletsPerLevel:
+  - {fileID: 114461126313612043, guid: e409bfb0c15df6c408e4e40eaf040d35, type: 2}
+  - {fileID: 114487540990199729, guid: 0e899f2369618fc4eb0a5cbe61cf2922, type: 2}
+  - {fileID: 114890971940058451, guid: c70ec61ef00fa43449118a1aa3e4e693, type: 2}
+  fireRateChangePerLevel:
+  - -0.3
+  - -0.3
+  - -0.3

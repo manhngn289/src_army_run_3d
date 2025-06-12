@@ -1,0 +1,940 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fab674bbdf86bdf6191915bde8588e37, type: 3}
+  m_Name: Level30_LevelDataTemplate
+  m_EditorClassIdentifier:
+  chapterID: 9
+  runCoin: 0
+  hasVip: 0
+  moduleControllerRecords:
+  - moduleName: ' 01 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 02 | M: SnowDesert_00A | S0 | G0'
+    moduleID: 00A
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 03 | M: SnowDesert_00B | S0 | G0'
+    moduleID: 00B
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 61a5d54dab1f3b2448d623504adb3ca6, type: 2}
+    - {fileID: 11400000, guid: 38bb40e0b2a7d044f828b5e3c0bbcdcd, type: 2}
+    - {fileID: 11400000, guid: 1f89938ceef2ddc43ae7e696a8e46022, type: 2}
+    - {fileID: 11400000, guid: 4d7f5964133413e458a9806a8d694930, type: 2}
+    - {fileID: 11400000, guid: 4be942cd261e3b2498d2ac1b1f1b8d4f, type: 2}
+    - {fileID: 11400000, guid: 52c1c4b5a04b82f409dff5dd0c8df656, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 7c6e085d930a1ce469f6fc0d3c5aa439, type: 2}
+    - {fileID: 11400000, guid: bec0e9cfbb2d69f43a8d1483a42799a0, type: 2}
+  - moduleName: ' 04 | M: SnowDesert_7 | S0 | G0'
+    moduleID: 7
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -1.67}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 2df6603f138ec8d47bc35d2c8e1b2982, type: 2}
+    - {fileID: 11400000, guid: 55817ab6952cbf945921f4df5d5b7958, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 05 | M: SnowDesert_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: d136ec510170a81419f621995f7f37d9, type: 2}
+    - {fileID: 11400000, guid: 0229dd0b818c8f342ad3785481a7ef8a, type: 2}
+    - {fileID: 11400000, guid: 427bbbca3f20d704a821cf0760dd3054, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 06 | M: SnowDesert_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: eb98b52181d038749838dd848fcd41fd, type: 2}
+    - {fileID: 11400000, guid: 0fd710290bac65a48b8c3e16e05499fc, type: 2}
+    - {fileID: 11400000, guid: 4b0ea578c622cb3459e478ac2855042e, type: 2}
+    - {fileID: 11400000, guid: bd262d8c674f91147873132cc15a5ca9, type: 2}
+    - {fileID: 11400000, guid: 931feda02e04a7e4099a6a654d2eba73, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: a7a01c87fe16c9c4b94deeab6e9670bf, type: 2}
+    - {fileID: 11400000, guid: 7255a32b7793bb74eb0e211bec1b121d, type: 2}
+    - {fileID: 11400000, guid: 4bce90121a948434c860e7900c9e7a65, type: 2}
+  - moduleName: ' 07 | M: SnowDesert_9 | S0 | G0'
+    moduleID: 9
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 39d87655a030e4a4cbf0f8de2a46663a, type: 2}
+    - {fileID: 11400000, guid: a1dcab45e69f2f04abb25e895ebc14be, type: 2}
+    - {fileID: 11400000, guid: 7fe5fac58ced0c74c86d89571d7f69cb, type: 2}
+    - {fileID: 11400000, guid: c99876463c94fba40802fff6de91310b, type: 2}
+    - {fileID: 11400000, guid: 16083679e3e214449a7c077e4e72fa7a, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f889dbf267b743f44b12c5ba462f2a7d, type: 2}
+    - {fileID: 11400000, guid: 277221c428f4e854e953f5278f3e4038, type: 2}
+  - moduleName: ' 08 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c54308f2e710e214394d08ba5d1e359d, type: 2}
+    - {fileID: 11400000, guid: 3ca2454606729e242bffb176c11b68e7, type: 2}
+    - {fileID: 11400000, guid: 73cd3796cd8de33459d9164345accc97, type: 2}
+    - {fileID: 11400000, guid: 72d5dd89feeb225468addb728f536f81, type: 2}
+    - {fileID: 11400000, guid: 0709428283146584888346820385e61f, type: 2}
+    - {fileID: 11400000, guid: e094b7bff1488654a812c0869132d533, type: 2}
+    - {fileID: 11400000, guid: 7dc81f632359a52438cf0788c5b383e2, type: 2}
+    - {fileID: 11400000, guid: 341ff826c82cc1447837023afc5c8456, type: 2}
+    - {fileID: 11400000, guid: d9f0b96139c8db9429dd89a565b4da24, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 09 | M: SnowDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 9018c5e72a330e742979ae69685f532b, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 9098ce1f623a14f4cb2d2ddc40ca7095, type: 2}
+    - {fileID: 11400000, guid: 5213cb5de9b374e409f43179ae0fbdf3, type: 2}
+  - moduleName: ' 10 | M: SnowDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 903c58ef5f065d74ba0d462081b0b617, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f7d03cfa6797a43429c7a4db20eb56e3, type: 2}
+    - {fileID: 11400000, guid: 85190d2b14f25f54da74ab782576696b, type: 2}
+    - {fileID: 11400000, guid: 9dad6ac60956f5c4c82219b336c5e887, type: 2}
+    - {fileID: 11400000, guid: 82587613870c0b445b1ee65f200c2f81, type: 2}
+    - {fileID: 11400000, guid: b7365f6e9800aad498a05a0db3b5b83f, type: 2}
+    - {fileID: 11400000, guid: 8c4ac4c19bc10c245a388d0c09d307be, type: 2}
+    - {fileID: 11400000, guid: d0ebf698c2e70e147b3472b7edff089a, type: 2}
+    - {fileID: 11400000, guid: 62c0e874322f2c148a872467642d2a65, type: 2}
+    - {fileID: 11400000, guid: 224339761968a9d4c835a69bc73de8ce, type: 2}
+    - {fileID: 11400000, guid: fd4ddfbe20c575e49bd8f90b13a26170, type: 2}
+    - {fileID: 11400000, guid: 4ed59c0b77598a342822f6911cbf03fb, type: 2}
+    - {fileID: 11400000, guid: 674de5e74b326f940a3e582e6e14adda, type: 2}
+    - {fileID: 11400000, guid: 67d32124078504145adf5c0500590062, type: 2}
+    - {fileID: 11400000, guid: ce1fd0a3138c7144db51d2bb5202f159, type: 2}
+    - {fileID: 11400000, guid: ce2dcc1702b12934c83144ce6ed4e5d4, type: 2}
+    - {fileID: 11400000, guid: 41dda8417f3ccc64d8b65bed34ad854a, type: 2}
+    - {fileID: 11400000, guid: 247bbc995d7ff7446b824ec5d5230753, type: 2}
+    - {fileID: 11400000, guid: 89fab0ee79953914a8c61365eb5607a4, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 49482d9e84022cc43a68d3db634378ee, type: 2}
+    - {fileID: 11400000, guid: 214fd9f6e55c8084fa79a8f1dcb77392, type: 2}
+    - {fileID: 11400000, guid: 845c22d55d350674f97bfe816d99137e, type: 2}
+  - moduleName: ' 11 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 04dd671c2d26728419014ac9c3642d0f, type: 2}
+    - {fileID: 11400000, guid: 5d600fe8f10caba41b08988a23dc1e94, type: 2}
+    - {fileID: 11400000, guid: 5cdea32af880d9e438479e13ca77fe6a, type: 2}
+    - {fileID: 11400000, guid: 91dd6703ade31da4abedabbaf4702cd4, type: 2}
+  - moduleName: ' 12 | M: SnowDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 7334b12d736634a47ab52a888c323f7b, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 2872366813002ad468371e656f0041e0, type: 2}
+    - {fileID: 11400000, guid: 3b7d5d750bcd6be4f959a1289b77d10d, type: 2}
+    - {fileID: 11400000, guid: 28a014a6cd35849498831baed02521d7, type: 2}
+    - {fileID: 11400000, guid: 1833fd1fc57273445b1181dc868c402c, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: aa424cbd01ec84f4390f940957d79e74, type: 2}
+    - {fileID: 11400000, guid: 7585417819850bf45b499dc1e0f88762, type: 2}
+    - {fileID: 11400000, guid: f0fe28284795acf4d9acfb1534078546, type: 2}
+    - {fileID: 11400000, guid: 6660f6fcc8d220742b4f41cf5821a055, type: 2}
+    - {fileID: 11400000, guid: 86a55e5269d1c3948aede246494404e0, type: 2}
+    - {fileID: 11400000, guid: 40aae7d67954a4d499e91d8207a2db2b, type: 2}
+    - {fileID: 11400000, guid: 95b8876af9161b54ead994d4914fb445, type: 2}
+    - {fileID: 11400000, guid: 453aee73b08a5f44c9c4387715932337, type: 2}
+    - {fileID: 11400000, guid: 4b343b235a352f44abbd9c1bda8915cc, type: 2}
+    - {fileID: 11400000, guid: f8c7faf3eeff6a2438a09beeade503f7, type: 2}
+  - moduleName: ' 13 | M: SnowDesert_5A | S0 | G0'
+    moduleID: 5A
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 2a593b9e0413de04dace7b39cca9bf04, type: 2}
+    - {fileID: 11400000, guid: 21538fb7a116eec4da129a9160d70dfe, type: 2}
+    - {fileID: 11400000, guid: 4d755bf0d6fb36f4fa70cf3e19a67d1a, type: 2}
+    - {fileID: 11400000, guid: c30b9100df3a1e84bbc926b01ec0c9b1, type: 2}
+    - {fileID: 11400000, guid: 84cb9def2f18eac43a15aada0e100e6c, type: 2}
+    - {fileID: 11400000, guid: 859a315d08858cb4fa3af0e92134ed50, type: 2}
+    - {fileID: 11400000, guid: 38324c1a8bcec834095aba4bfe00cdbb, type: 2}
+    - {fileID: 11400000, guid: 7ec04cf4d1001974f867ab036c06afed, type: 2}
+    - {fileID: 11400000, guid: 281d31abf14c3b241bd211a28278450c, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 14 | M: SnowDesert_4 | S0 | G0'
+    moduleID: 4
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 0b3ac82b99957c64b899dbd7420274c7, type: 2}
+    - {fileID: 11400000, guid: 96e0a85f53308cf41bfd257eae280c0a, type: 2}
+    - {fileID: 11400000, guid: e66fd0cf08fba5f409fe68f79864f867, type: 2}
+    - {fileID: 11400000, guid: bf5a8bfb153693740bc8437e1d7a374d, type: 2}
+    - {fileID: 11400000, guid: 647e7d1ba6847224382dbdf86c36595a, type: 2}
+    - {fileID: 11400000, guid: 43597eaf2c71ccd46890b087fc76e28d, type: 2}
+    - {fileID: 11400000, guid: abab4d62bf0f5cc4889bdca7a58789d2, type: 2}
+    - {fileID: 11400000, guid: e7ad73c2762f40443acb00a97f45a319, type: 2}
+    - {fileID: 11400000, guid: 62f4a8619bdefb54697014ac63b969fd, type: 2}
+    - {fileID: 11400000, guid: a51d35e70e843a0479755ecfb87505e7, type: 2}
+    - {fileID: 11400000, guid: 825784b102bfe8d4fa60f225be6d7d5a, type: 2}
+    - {fileID: 11400000, guid: 9905a624e92d4d84ab1636f3f66b1fe4, type: 2}
+    - {fileID: 11400000, guid: cf22420452ee19340af7a975752d1ede, type: 2}
+    - {fileID: 11400000, guid: 9f7ff3165d4f91c4c978f4223c9c0f2d, type: 2}
+    - {fileID: 11400000, guid: 7cb48902c1532b44ea69c10b0ac432c6, type: 2}
+    - {fileID: 11400000, guid: 0e15ca358e9dda146ba7d530f36fe5d2, type: 2}
+    - {fileID: 11400000, guid: 083334af99ce717439fc97c78b9dd5ec, type: 2}
+    - {fileID: 11400000, guid: 530cf6049e0bb7448b252c2650f51a4d, type: 2}
+    - {fileID: 11400000, guid: 0d637a705d193644e912373574939208, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 58a54ce1475172a44ba2127b3a74cdbe, type: 2}
+    - {fileID: 11400000, guid: 7ac0569bc3557c543a6bf7bdc7dc4fe0, type: 2}
+    - {fileID: 11400000, guid: 621f71815958f3e4883773a010364cee, type: 2}
+    - {fileID: 11400000, guid: a5dbe7247e21c804c97dc0a1e16a38e9, type: 2}
+    - {fileID: 11400000, guid: 8a3514989cec472468233e69da0b3e2a, type: 2}
+  - moduleName: ' 15 | M: SnowDesert_5B | S0 | G0'
+    moduleID: 5B
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f5e2e11a7cac4b74192e8a21483bc56f, type: 2}
+    - {fileID: 11400000, guid: f3b68b0e83849eb45a680fd24e5bc945, type: 2}
+    - {fileID: 11400000, guid: a6bfc77fd8d921f458e5bbe3b7a0e72f, type: 2}
+    - {fileID: 11400000, guid: 058adfe55e8ae1e428f069b1253af0f0, type: 2}
+    - {fileID: 11400000, guid: b69a7dc622f15404f8171851cfb40f45, type: 2}
+    - {fileID: 11400000, guid: acf6deb407ef365448ff0837b4ac7de3, type: 2}
+    - {fileID: 11400000, guid: 6155abd07c47de24fbacda1336757f42, type: 2}
+    - {fileID: 11400000, guid: d829c858143dfb441a216d7ee9e66b67, type: 2}
+    - {fileID: 11400000, guid: ef19d8937bf441c4c970607df2f9dd49, type: 2}
+    - {fileID: 11400000, guid: c2dc2f5e5ec1ae74d910792c953d55a8, type: 2}
+    - {fileID: 11400000, guid: 73082d6ec8b6bb84d826a416de5c1bcd, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 258300c9b17c87141ac8b5e28643278a, type: 2}
+    - {fileID: 11400000, guid: 7bc71ad593d828d42a0574034e68e3e9, type: 2}
+  - moduleName: ' 16 | M: SnowDesert_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5.15}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: d443cace487ce6347a48d5e663a0c54a, type: 2}
+    - {fileID: 11400000, guid: 29d20605f4acfb3448a3f41cbf4ce16a, type: 2}
+    - {fileID: 11400000, guid: 94eb0eabbe0e3ad49a93d6c0ed6ac7e4, type: 2}
+    - {fileID: 11400000, guid: 6e8897af81eacc64b8773c948403008f, type: 2}
+    - {fileID: 11400000, guid: 4dc55f433974c7144aed02969a734ac7, type: 2}
+    - {fileID: 11400000, guid: bc67f0062dda3b54381fc4dd7b0d9a87, type: 2}
+    - {fileID: 11400000, guid: c6a0b15f724c7354eb68b11350333c65, type: 2}
+    - {fileID: 11400000, guid: 6873a2bcf3b57144d960f2d314cd50b7, type: 2}
+  - moduleName: ' 17 | M: SnowDesert_3 | S0 | G0'
+    moduleID: 3
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 4530a6780b6233e4fa152e8d043771d6, type: 2}
+    - {fileID: 11400000, guid: 4a8d749e31456f34e9b5ebed90114521, type: 2}
+    - {fileID: 11400000, guid: f059b5330bde0a8419bc261dac46bd08, type: 2}
+    - {fileID: 11400000, guid: f3174e289f9093e44937980bc8a0ebd3, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 18 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 7cde8468deb86fb4cad35b8957619bcb, type: 2}
+    - {fileID: 11400000, guid: 1effa07cc0cd2584f94f91de47b2c6b9, type: 2}
+    - {fileID: 11400000, guid: 144a4522233064742ad7e0e736bf62dc, type: 2}
+    - {fileID: 11400000, guid: f314964a85e6e854a922cfb725689956, type: 2}
+    - {fileID: 11400000, guid: f996ba6e8bdc03e45b9e8c41ab78dbdd, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: e5ec9fdb3585b6d47b679ff0d1fa9203, type: 2}
+    - {fileID: 11400000, guid: cec449129c8402d41a5d4a5903bb5284, type: 2}
+  - moduleName: ' 19 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 20 | M: SnowDesert_2 | S0 | G0'
+    moduleID: 2
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 838b82dae856cef4f874641257856ce9, type: 2}
+    - {fileID: 11400000, guid: 60e78213792b4174bae647285b593da9, type: 2}
+    - {fileID: 11400000, guid: 42ebd6d5899402b4e886e3e7dc03059d, type: 2}
+    - {fileID: 11400000, guid: 517422c54300a1e4c9c9da8752e688c9, type: 2}
+    - {fileID: 11400000, guid: 51cd5e7a0d6583d41a60c77686ec5ce1, type: 2}
+    - {fileID: 11400000, guid: a9524e3535de32743a24ca6890237e6d, type: 2}
+    - {fileID: 11400000, guid: bae45a1f6b137ad4e92f21073c830643, type: 2}
+    - {fileID: 11400000, guid: 8b02ec56bd5c8414b9b1505bacabd540, type: 2}
+    - {fileID: 11400000, guid: 4da8a82a8a6850945885f4cebd666446, type: 2}
+    - {fileID: 11400000, guid: 2f61988df41dbf94bbefd875a313b478, type: 2}
+    - {fileID: 11400000, guid: 42698a28c164e9b45a4066c3a03c7062, type: 2}
+    - {fileID: 11400000, guid: 0e44009e0da649548a8ed8e3609bcbe1, type: 2}
+    - {fileID: 11400000, guid: df9d180e7c9213f47818daf06bb6fa5a, type: 2}
+    - {fileID: 11400000, guid: 3318943ef1af6c14ca13ecc5d3c2a484, type: 2}
+    - {fileID: 11400000, guid: 76ad9ee595564ea4da84a2fe37ad9046, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 21 | M: SnowDesert_2 | S0 | G0'
+    moduleID: 2
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 20f3c05188bf3fb46a94069435612b9c, type: 2}
+    - {fileID: 11400000, guid: c2d806aebfcea6a4cb7b83efc201fa13, type: 2}
+    - {fileID: 11400000, guid: 4ab1a011d0434624783bdd7dc5345c42, type: 2}
+    - {fileID: 11400000, guid: 0ae90fbe4322b38438ae0c5068713eaa, type: 2}
+    - {fileID: 11400000, guid: baa6e305c59b0ae43a94d1e2b7bd105a, type: 2}
+    - {fileID: 11400000, guid: e996aa56cdf4a5c4c9161a352491d8a7, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 22 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f5a41c676e0f2b7489b9c9c06bf0b5f9, type: 2}
+    - {fileID: 11400000, guid: 30699ec7c5aba234180581f4ff615db2, type: 2}
+    - {fileID: 11400000, guid: f3c357322e70d3e47bcaccbef5bec48f, type: 2}
+    - {fileID: 11400000, guid: a2ab7815cf9d04f4d8db930b9df25f34, type: 2}
+    - {fileID: 11400000, guid: 66f3f722f3c1a0b43b948597aafd8dd2, type: 2}
+    - {fileID: 11400000, guid: c07163875e2f00d4a95293947ff4e7fa, type: 2}
+    - {fileID: 11400000, guid: 246c2255654330d42a6f5227c17fda28, type: 2}
+    - {fileID: 11400000, guid: ac34fa48ef72b9c48a32515f2dff3160, type: 2}
+    - {fileID: 11400000, guid: 22fbc8f9ce816dc4fa227caf7761fa0c, type: 2}
+    - {fileID: 11400000, guid: e6b48330c841f834688cb6c1fa12f673, type: 2}
+    - {fileID: 11400000, guid: 3dc2174fd4358e5449313087c5870d1c, type: 2}
+    - {fileID: 11400000, guid: d970d24f88d10be448875e48bb66f6e5, type: 2}
+    - {fileID: 11400000, guid: 8efb85c7af402b143bbe48d0ef1983a6, type: 2}
+    - {fileID: 11400000, guid: 3fb09a494b0faef488b3e6548a464a49, type: 2}
+    - {fileID: 11400000, guid: 2b6b4f06195f6ce4ca7eecf91549b3db, type: 2}
+    - {fileID: 11400000, guid: c756e5d30dd0b86489157c03f242f84c, type: 2}
+    - {fileID: 11400000, guid: ec8cbfa74c5d7a146ae5d597c48d052a, type: 2}
+    - {fileID: 11400000, guid: bd2154fd5b8f0f24cbd7f46076cb25f0, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 35ead397d9ba0134cad59cbeabc2d79a, type: 2}
+    - {fileID: 11400000, guid: 4f395ce267c751b41b90c168e5ddacf2, type: 2}
+    - {fileID: 11400000, guid: f2938e0493295ed438cc66c5589797a1, type: 2}
+  - moduleName: ' 23 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 7a97584648ffc344987fd2e03b714aa3, type: 2}
+    - {fileID: 11400000, guid: d781d606a29d4564896e36927f0cd4c9, type: 2}
+    - {fileID: 11400000, guid: ddfe8262a2193444f88d08126601b644, type: 2}
+    - {fileID: 11400000, guid: 8c8182f61491fe442b069a76f6bda904, type: 2}
+    - {fileID: 11400000, guid: 4ff22b776c6157745a7375b66449e4fd, type: 2}
+    - {fileID: 11400000, guid: 5a955ae7280443944b6d87bf92299eb6, type: 2}
+  - moduleName: ' 24 | M: SnowDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: d858b52b2da463c429289385f0ea029e, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: -3.14}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 9e5daf22e4dab4d428bc51ebab10909a, type: 2}
+    - {fileID: 11400000, guid: 8e532f9c3a75503409b1f71271940e52, type: 2}
+    - {fileID: 11400000, guid: 2933fe806d2b2c14c9ad323053bbf21c, type: 2}
+    - {fileID: 11400000, guid: 3099841f17471a34d93030067ba7a1db, type: 2}
+    - {fileID: 11400000, guid: 20d8c7c4f6e4a4b40acc027a449838ab, type: 2}
+    - {fileID: 11400000, guid: dc2240e1b6545d646885c53cc5a02f3d, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 33f234eaa2c6355469c8ff7ea44429bb, type: 2}
+    - {fileID: 11400000, guid: df543308c5a15e948844fb3cb4bc785a, type: 2}
+    - {fileID: 11400000, guid: 72e1e6da9ba01f243b1365ea60e4f6cd, type: 2}
+  - moduleName: ' 25 | M: SnowDesert_5 | S0 | G0'
+    moduleID: 5
+    moduleModelRecordData:
+      jumpUtilityRecordDatas:
+      - {fileID: 11400000, guid: 4a0cfbcaccd515f4480a3f409530a715, type: 2}
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 4a56ef2c63feace409853794b1efa65c, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 09a226da06fcec44d86d0818b45606ce, type: 2}
+  - moduleName: ' 26 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 44aeaa1111cf90b4c8261e0982020f4c, type: 2}
+    - {fileID: 11400000, guid: e73284b436ec67c409f9633203b56c3f, type: 2}
+    - {fileID: 11400000, guid: c04470fd5f72d814b99b148abc72e9ca, type: 2}
+    - {fileID: 11400000, guid: 0c67cd2cce80d6c4795a7e19e76bee39, type: 2}
+    - {fileID: 11400000, guid: fb8ac466d6f8e814db370de6f73c49e8, type: 2}
+    - {fileID: 11400000, guid: 280d416292e16cf4ea7d1af2bc6d1965, type: 2}
+    - {fileID: 11400000, guid: 52df03832e4b79847ae11cc3ade13814, type: 2}
+    - {fileID: 11400000, guid: ba44565bd6bf1a6438c842e4fe67a63a, type: 2}
+    - {fileID: 11400000, guid: 35417b626465def44a5cc96f1fd8d256, type: 2}
+    - {fileID: 11400000, guid: 3e404d22a3995c048bca21594cd0b667, type: 2}
+    - {fileID: 11400000, guid: ec5a189a18a9c4843823888f60635503, type: 2}
+    - {fileID: 11400000, guid: d3f15d134fd45854790a7c66a1b540c4, type: 2}
+    - {fileID: 11400000, guid: 1f703da2a696c454a8d3d3f8e9711cee, type: 2}
+    - {fileID: 11400000, guid: 585afe0ee8e46ca4ba65ed1da96cf4e7, type: 2}
+    - {fileID: 11400000, guid: 1cbd605c42f222940b75ce7dc5abfe4e, type: 2}
+    - {fileID: 11400000, guid: 5f1747f5dcc164b4e95dd6eafeac1b8f, type: 2}
+    - {fileID: 11400000, guid: 5d19253802592ba4fa7f4f6229984c32, type: 2}
+    - {fileID: 11400000, guid: 79e166543db4ab8418a5147f1dfce1e3, type: 2}
+    - {fileID: 11400000, guid: dad4e6ece8431ca4aa1612a44f58c662, type: 2}
+    - {fileID: 11400000, guid: 3e519e136d43141478d499747decab09, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 06c5b07f08c6a64439529e1ef0786952, type: 2}
+    - {fileID: 11400000, guid: 8bd092487234f084d90c21b025d25d45, type: 2}
+    - {fileID: 11400000, guid: 87e5551df85978e4692e432030da64af, type: 2}
+    - {fileID: 11400000, guid: 4f44aa85e2c3aa5489740bbbba3b61f7, type: 2}
+  - moduleName: ' 27 | M: SnowDesert_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: 309fe08d64ddf1643a915271ebe99f75, type: 2}
+    - {fileID: 11400000, guid: 7c3742d45fa70a44ba90a8784a58b176, type: 2}
+    - {fileID: 11400000, guid: 19f3e9c31517d034ebcb3f6e7d349e0e, type: 2}
+    - {fileID: 11400000, guid: 854d22a73d4430b44b0ca7b38f48b61f, type: 2}
+  - moduleName: ' 28 | M: SnowDesert_8 | S0 | G0'
+    moduleID: 8
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c0d94336c4afd6147bc9b7c2a62f156d, type: 2}
+    - {fileID: 11400000, guid: 38b31136805c66445ba5609c205d46ef, type: 2}
+    - {fileID: 11400000, guid: 5d2cb18f26efa8b48b875a6a515860c3, type: 2}
+    - {fileID: 11400000, guid: 68d472a1b9b37514689d9fe36de8afc0, type: 2}
+    - {fileID: 11400000, guid: 10e762576687f954a8c326ca4e8286e6, type: 2}
+    - {fileID: 11400000, guid: 498ef4fa8891b4a4da677d574773164a, type: 2}
+    - {fileID: 11400000, guid: 449cb30968649db4db196e7e5a7d20be, type: 2}
+    - {fileID: 11400000, guid: 47063a985fbbadf4e9b1548d07c3a36e, type: 2}
+    - {fileID: 11400000, guid: 5b98617e809c6294f8d3105fe09bf819, type: 2}
+    - {fileID: 11400000, guid: 529e09d905a34804a805073a80b66404, type: 2}
+    - {fileID: 11400000, guid: 03c77a9e14001fe4395d56989e851650, type: 2}
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 29 | M: SnowDesert_6 | S0 | G0'
+    moduleID: 6
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO: []
+    utilityRecordDatasObjectSO: []
+  - moduleName: ' 30 | M: SnowDesert_1 | S0 | G0'
+    moduleID: 1
+    moduleModelRecordData:
+      jumpUtilityRecordDatas: []
+      movingPlatformDefaultActive: 0
+    spawnPointDatas: []
+    trapDefaultPosition: {x: 0, y: 0, z: 0}
+    utilityDefaultPosition: {x: 0, y: 0, z: 0}
+    spawnPointDefaultPosition: {x: 0, y: 0, z: 5}
+    gateDefaultPosition: {x: 0, y: 0, z: -2}
+    hasGate: 0
+    gateRecordData:
+      useManualSetting: 0
+      gateValue: []
+      isDeactiveSecondGate: 0
+      gateTypeValues: []
+      localPosition: {x: 0, y: 0, z: 0}
+      localRotation: {x: 0, y: 0, z: 0, w: 0}
+    trapRecordDatasObjectSO:
+    - {fileID: 11400000, guid: c3d347abfbbe2df4fb9f7c1d7e8ff76b, type: 2}
+    utilityRecordDatasObjectSO:
+    - {fileID: 11400000, guid: f9161ae84c29b1a4da1ed8769d35d100, type: 2}
+    - {fileID: 11400000, guid: 8ea8de011a1f59640af8498f310f491b, type: 2}
+    - {fileID: 11400000, guid: 2ad6fcb9a84b472488725245d0e05d45, type: 2}
+    - {fileID: 11400000, guid: 44d3085a7c6fee145bf6ecadb3cb83a0, type: 2}
+    - {fileID: 11400000, guid: ae5b93d4d1900844aa8b59e41001f96c, type: 2}
+  moveSpeedUtilityRecords:
+  - {fileID: 11400000, guid: 6cfe5da25206d644195987fb280201c9, type: 2}
+  - {fileID: 11400000, guid: caf24ec7dc9212e4ba85c7af5c1fbc8c, type: 2}
+  - {fileID: 11400000, guid: e51e6f38fdf2b2545afa0054741a95a1, type: 2}
+  - {fileID: 11400000, guid: 2b1ba2fa19c68eb459c9b8a9bc00b5c8, type: 2}
+  - {fileID: 11400000, guid: b22f92e7417a6934d82c2fb050c97d94, type: 2}
+  - {fileID: 11400000, guid: 4efe3174ccda2014d8b767a5ddf35e0b, type: 2}
+  - {fileID: 11400000, guid: 8d316a17c5d5e9a49af84d175abf07bb, type: 2}
+  - {fileID: 11400000, guid: 8be8f592f4c31c141a44bd60f2caa809, type: 2}
+  - {fileID: 11400000, guid: bd9a4b566c158f2479e4df1f6b6c6aae, type: 2}
+  - {fileID: 11400000, guid: ba37d9f64c2b1734bbf96a350e02af2e, type: 2}
+  - {fileID: 11400000, guid: 919af72a979be1e44818865288427ea1, type: 2}
+  - {fileID: 11400000, guid: 509cc6861573ce34a9ac31a490f45705, type: 2}
+  - {fileID: 11400000, guid: 08efa0d7c6bf4334997a2444080f3fab, type: 2}
+  - {fileID: 11400000, guid: a309e8cc21ea2d7438b6fdbb9f4b8fa2, type: 2}
+  - {fileID: 11400000, guid: 2e8500c4eec47f44a955eff9c06353eb, type: 2}
+  - {fileID: 11400000, guid: a63e8aa15cf0c0f44824d945ef444a9e, type: 2}
+  - {fileID: 11400000, guid: 929779e00b8adbb4eb46f97a31455f6b, type: 2}
+  - {fileID: 11400000, guid: f283c8fda0ff4694ea4934ce75077906, type: 2}
+  - {fileID: 11400000, guid: f2fb5143870c4e842b74b3fd2812de53, type: 2}
+  - {fileID: 11400000, guid: b28352c4606ce834fab1d475247ee2d9, type: 2}
+  - {fileID: 11400000, guid: 2125b79f14939534fa61a3db9c731d7b, type: 2}
+  - {fileID: 11400000, guid: 8c73d234196a168408813ce167cd7601, type: 2}
+  - {fileID: 11400000, guid: 76b4e7b02e6cbb24f900c658dc2c7cd0, type: 2}
+  - {fileID: 11400000, guid: 7c4c2d0456985de45a350e7457cd90dd, type: 2}
+  - {fileID: 11400000, guid: 867205c7f28011146821ae9e71e81b22, type: 2}
+  - {fileID: 11400000, guid: 25b51177ed11b424b9b2240fc2d912be, type: 2}
+  - {fileID: 11400000, guid: de8882d7a672440439847f9c2326c67d, type: 2}
+  - {fileID: 11400000, guid: ad2daec0a28cc914da2db15fa968d184, type: 2}
+  finishLevelRecordData:
+    finishType: 1
+    spawnEnemyWithBoss: 0
+    randomModuleRecordDatas:
+    - 3
+    - 6
+    - 2
+    - 2
+    - 3
+    - 6
+    - 6
+    - 9
+    - 8
+    - 8
+    bossFinishModuleRecordData:
+      moduleName:
+      moduleID:
+      moduleModelRecordData:
+        jumpUtilityRecordDatas: []
+        movingPlatformDefaultActive: 0
+      spawnPointDatas: []
+      trapDefaultPosition: {x: 0, y: 0, z: 0}
+      utilityDefaultPosition: {x: 0, y: 0, z: 0}
+      spawnPointDefaultPosition: {x: 0, y: 0, z: 0}
+      gateDefaultPosition: {x: 0, y: 0, z: 0}
+      hasGate: 0
+      gateRecordData:
+        useManualSetting: 0
+        gateValue: []
+        isDeactiveSecondGate: 0
+        gateTypeValues: []
+        localPosition: {x: 0, y: 0, z: 0}
+        localRotation: {x: 0, y: 0, z: 0, w: 0}
+      trapRecordDatasObjectSO: []
+      utilityRecordDatasObjectSO: []
+    bossPrefab: {fileID: 0}
+    leftRightIntroCamDistance: {x: 0, y: 0}
+  hasTutorial: 0
+  tutorialRecordData:
+    localPosition: {x: 0, y: 0, z: 0}
+    tutorialID: 0

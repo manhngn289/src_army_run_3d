@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1298409180918915
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4388239892835164}
+  - component: {fileID: 114044338918062874}
+  m_Layer: 0
+  m_Name: Utility_CoinLine
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4388239892835164
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298409180918915}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114044338918062874
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1298409180918915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 846de3135e46b079751ee3e36f0f7bee, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  pathResolution: 30
+  showSettings: 0
+  showPointLabels: 1
+  showHandles: 0
+  pointSize: 0.2
+  snapAxis: 2
+  updatePointsWithRoot: 1
+  foldWayPoints: 1
+  offsetFromRoot: 0
+  WayPoints: []
+  path: []
+  amount: 5
+  objectPrefab: {fileID: 1786910271737255, guid: 96bffd1f105c9174784cf2d069f04f5c, type: 2}
+  objectsInstantiated: []
+  objectRecordableDataType: 20
+  objectAlongPathRecordDataSO: {fileID: 0}

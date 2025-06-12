@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a4e8cc27ebc81d94a366ec878dcfa80, type: 3}
+  m_Name: ChapterSettingData_7
+  m_EditorClassIdentifier:
+  moduleControllerPrefab: {fileID: 114704825573290760, guid: 009caaeb542ee574bbe87ddd4459f0a0, type: 2}
+  startModulePrefabs:
+  - {fileID: 114185300278197316, guid: 89a64f8142226964ea2a405d06eb903f, type: 2}
+  - {fileID: 114739327913847883, guid: cc73bd76e854bdc4ba0490d69add4f8c, type: 2}
+  chapterModules: {fileID: 11400000, guid: 1669c644acefecc4188e58e88141ba52, type: 2}
+  finishLevelPrefab: {fileID: 114266525757483898, guid: 2c3c8c4c60af4b14991cb4e38b9d458a, type: 2}
+  firstFinishModules: {fileID: 11400000, guid: 7153ec49d56bce54a9d1cba93690d091, type: 2}
+  otherFinishModules: {fileID: 11400000, guid: e09260a5e946c0d43a766d7dfb0b8755, type: 2}
+  bossFinishModules: {fileID: 114645384384396226, guid: ea3628d44aba21548816a3933605e750, type: 2}
+  bossFinishFirstModule: {fileID: 11400000, guid: f991d0a783612b146b620a511032b1f5, type: 2}
+  decorGoPrefabs: {fileID: 1137173413796359, guid: 59f253d5a802c32418eb21f430ad78fd, type: 2}
+  skyBoxMaterials: {fileID: 2100000, guid: c1de6e8a35a024043b22406ef9abbb72, type: 2}
+  decorFarMaterials: {fileID: 2100000, guid: 71c7c4f2ccef6444a98f325b519a0790, type: 2}
+  tutorialInLevelGoPrefab: {fileID: 114623051233666521, guid: 8e0992dfa37409a47bab534895b563ff, type: 2}

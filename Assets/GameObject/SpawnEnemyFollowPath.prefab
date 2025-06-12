@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709320286720116
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4056225957200768}
+  - component: {fileID: 114446558626239746}
+  m_Layer: 0
+  m_Name: SpawnEnemyFollowPath
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4056225957200768
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709320286720116}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114446558626239746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709320286720116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72c4b914c647989d5b89fa40c4b3271d, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  enemyDataSO: {fileID: 11400000, guid: f7bc3110695e62244930fc987b1fe860, type: 2}
+  enemyEliteDataSO: {fileID: 11400000, guid: 17f19e472e8141d4cb43a0d1b02d7882, type: 2}
+  enemyMoveType: 1
+  enemyMoveTypeAfterPath: 1
+  checkDistanceRadius: 15
+  initTimeDelay: 0
+  totalWave: 0
+  spawnDatasList: []
+  spawnRadius: 2
+  pathMove:
+  - {x: -8, y: 0, z: 30}
+  - {x: -7.730916, y: 0, z: 30.09334}
+  - {x: -7.4546638, y: 0, z: 30.194647}
+  - {x: -7.17204, y: 0, z: 30.303038}
+  - {x: -6.8838415, y: 0, z: 30.41763}
+  - {x: -6.590864, y: 0, z: 30.537535}
+  - {x: -6.2939053, y: 0, z: 30.661871}
+  - {x: -5.993761, y: 0, z: 30.789751}
+  - {x: -5.691227, y: 0, z: 30.920282}
+  - {x: -5.3871, y: 0, z: 31.05259}
+  - {x: -5.082176, y: 0, z: 31.185778}
+  - {x: -4.777253, y: 0, z: 31.31897}
+  - {x: -4.473126, y: 0, z: 31.451275}
+  - {x: -4.1705923, y: 0, z: 31.58181}
+  - {x: -3.8704472, y: 0, z: 31.709686}
+  - {x: -3.5734887, y: 0, z: 31.83402}
+  - {x: -3.2805114, y: 0, z: 31.953926}
+  - {x: -2.9923124, y: 0, z: 32.06852}
+  - {x: -2.7096896, y: 0, z: 32.176914}
+  - {x: -2.433437, y: 0, z: 32.27822}
+  - {x: -2.1643531, y: 0, z: 32.371555}
+  - {x: -1.9032328, y: 0, z: 32.45604}
+  - {x: -1.6508737, y: 0, z: 32.53078}
+  - {x: -1.4080712, y: 0, z: 32.594894}
+  - {x: -1.1756221, y: 0, z: 32.647488}
+  - {x: -0.9543233, y: 0, z: 32.68769}
+  - {x: -0.74497056, y: 0, z: 32.714603}
+  - {x: -0.54836094, y: 0, z: 32.727352}
+  - {x: -0.36529022, y: 0, z: 32.72504}
+  - {x: -0.19655538, y: 0, z: 32.70679}
+  - {x: -0.042952508, y: 0, z: 32.67171}
+  - {x: 0.09946961, y: 0, z: 32.6171}
+  - {x: 0.2257275, y: 0, z: 32.544514}
+  - {x: 0.33670285, y: 0, z: 32.454933}
+  - {x: 0.4332774, y: 0, z: 32.34934}
+  - {x: 0.51633275, y: 0, z: 32.228714}
+  - {x: 0.58675057, y: 0, z: 32.094032}
+  - {x: 0.64541256, y: 0, z: 31.94628}
+  - {x: 0.6932005, y: 0, z: 31.786436}
+  - {x: 0.7309961, y: 0, z: 31.615477}
+  - {x: 0.759681, y: 0, z: 31.434393}
+  - {x: 0.7801366, y: 0, z: 31.244154}
+  - {x: 0.79324496, y: 0, z: 31.045744}
+  - {x: 0.79988766, y: 0, z: 30.840145}
+  - {x: 0.80094635, y: 0, z: 30.62834}
+  - {x: 0.7973027, y: 0, z: 30.4113}
+  - {x: 0.7898383, y: 0, z: 30.190016}
+  - {x: 0.7794351, y: 0, z: 29.965462}
+  - {x: 0.7669747, y: 0, z: 29.738623}
+  - {x: 0.7533386, y: 0, z: 29.510473}
+  - {x: 0.7394086, y: 0, z: 29.281996}
+  - {x: 0.72606647, y: 0, z: 29.054174}
+  - {x: 0.7141937, y: 0, z: 28.827986}
+  - {x: 0.7046722, y: 0, z: 28.604414}
+  - {x: 0.6983834, y: 0, z: 28.384434}
+  - {x: 0.6962092, y: 0, z: 28.169031}
+  - {x: 0.6990313, y: 0, z: 27.959185}
+  - {x: 0.70773125, y: 0, z: 27.755875}
+  - {x: 0.7231907, y: 0, z: 27.56008}
+  - {x: 0.7462915, y: 0, z: 27.372784}
+  wayPoints: []
+  spawnInfinityWithEnemy: 0
+  enemyCondition: {fileID: 0}
+  foldStates:
+  isSpawnDataListFolded: 1
+  isSpawned: 0
+  recordRecordData:
+    spawnDatas: []
+    spawnRadius: 2
+    checkDistanceRadius: 20
+    initTimeDelay: 0
+    enemyMoveType: 0
+    enemyMoveTypeAfterPath: 0
+    wayPoints: []
+    spawnInfinityWithEnemy: 0
+    localPosition: {x: 0, y: 0, z: 0}

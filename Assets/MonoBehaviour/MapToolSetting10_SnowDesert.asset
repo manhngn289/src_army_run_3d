@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a728a4e760fa07b3376fd3851537e4ad, type: 3}
+  m_Name: MapToolSetting10_SnowDesert
+  m_EditorClassIdentifier:
+  moduleControllerPrefab: {fileID: 114704825573290760, guid: 009caaeb542ee574bbe87ddd4459f0a0, type: 2}
+  startModulePrefabs:
+  - {fileID: 114444801047462524, guid: 7fa4611325abca349bd5e18c76dcd1c1, type: 2}
+  - {fileID: 114108269830735632, guid: 28d9913abc3ce70428a863e0064cbe3d, type: 2}
+  gameAllTrapSO: {fileID: 11400000, guid: 3e475b260f30cd4438af72750b32bb5b, type: 2}
+  gameAllUtilitySO: {fileID: 11400000, guid: a9a624c4b0cfff943ad196cef87375d6, type: 2}
+  chapterModules: {fileID: 11400000, guid: 1ed41b0f21409bd42a4a6a66a5ca9de5, type: 2}
+  finishLevelPrefab: {fileID: 114266525757483898, guid: 2c3c8c4c60af4b14991cb4e38b9d458a, type: 2}
+  firstFinishModules: {fileID: 11400000, guid: 1a3fc79ec93378f438d6c1a3c266da28, type: 2}
+  otherFinishModules: {fileID: 11400000, guid: 2ea5224337ad5204c8b3a964857f0575, type: 2}
+  bossFinishModules: {fileID: 114991101655663760, guid: e3ced509226ae2046be4bafc400ccf73, type: 2}
+  bossFinishFirstModule: {fileID: 11400000, guid: 425e1126101a2d94e8727390af54509e, type: 2}

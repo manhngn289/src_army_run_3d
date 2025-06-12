@@ -1,0 +1,27 @@
+public enum GeneralEventName
+{
+	BuyAnItem = 0,
+	CallSkill = 1,
+	ConstructLevel = 2,
+	PlayGame = 3,
+	EndGame = 4,
+	AddTime = 5,
+	Down = 6,
+	Drag = 7,
+	Up = 8,
+	ChangeUIState = 9,
+	LockInput = 10,
+	ClaimWood = 11,
+	NewHighScore = 12,
+	FinishWood = 13,
+	CallReloadResourceUI = 14,
+	UseTicket = 15,
+	DoQuest = 16,
+	CallItemFly = 17,
+	Retry = 18,
+	ShowTutorial = 19,
+	HideTutorial = 20,
+	BuyAnOfferPack = 21,
+	ShowABundle = 22,
+	RestoreProduct = 23
+}

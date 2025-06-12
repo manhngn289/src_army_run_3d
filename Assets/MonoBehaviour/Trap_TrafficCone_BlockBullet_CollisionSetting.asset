@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4164d6a6ad8ba00f68323f7452b3c73a, type: 3}
+  m_Name: Trap_TrafficCone_BlockBullet_CollisionSetting
+  m_EditorClassIdentifier:
+  colliderType: 2
+  colliderShape: 1
+  selfLayer:
+    serializedVersion: 2
+    m_Bits: 16384
+  targetLayer:
+    serializedVersion: 2
+    m_Bits: 8192
+  centerOffset: {x: 0, y: 0.3, z: 0}
+  sphereRadius: 0.8
+  boxSize: {x: 0.4, y: 0.6, z: 0.4}
+  isActionOnNotCollision: 0
+  canOverrideSettingLayer: 1

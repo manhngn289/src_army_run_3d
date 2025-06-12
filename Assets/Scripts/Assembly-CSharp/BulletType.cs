@@ -1,0 +1,28 @@
+public enum BulletType
+{
+	AllyEvolveLv1 = 0,
+	AllyGatlingLv1 = 1,
+	AllyGatlingLv2 = 2,
+	AllyGatlingLv3 = 3,
+	AllySniperRiffleLv1 = 4,
+	AllySniperRiffleLv2 = 5,
+	AllySniperRiffleLv3 = 6,
+	AllyFireGrenade = 7,
+	AllyIceGrenade = 8,
+	AllyShotgunLv1 = 9,
+	AllyBazookaLv1 = 10,
+	EnemyNormal = 11,
+	EnemyBossGatling = 12,
+	EnemyGrenadeNormal = 13,
+	EnemyGrenadeBoss = 14,
+	EnemyBossMolotov = 15,
+	AllyBazookaLv2 = 16,
+	AllyBazookaLv3 = 17,
+	AllyEvolveLv2 = 18,
+	AllyEvolveLv3 = 19,
+	AllyEvolveLv4 = 20,
+	AllyDroneLv1 = 21,
+	AllyShotgunLv2 = 22,
+	AllyShotgunLv3 = 23,
+	EnemyBossSnipie = 24
+}
