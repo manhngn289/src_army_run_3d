@@ -12,16 +12,16 @@ public struct CollisionData
 	public LayerMask CollisionLayer;
 
 	public ColliderShape Shape;
+	
+	public float3 Size;
+
+	public float Radius;
 
 	public float3 Position;
 
 	public quaternion Rotation;
 
 	public float3 CenterOffset;
-
-	public float3 Size;
-
-	public float Radius;
 
 	public bool IsActive;
 
